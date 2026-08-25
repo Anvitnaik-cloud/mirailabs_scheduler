@@ -1,0 +1,8955 @@
+{
+  "seed": 42,
+  "companies": [
+    {
+      "id": "COMP_001",
+      "name": "TCS Digital",
+      "priority_tier": "MASS_RECRUITER",
+      "priority_tier_val": 1,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 30,
+      "panel_count": 10,
+      "cgpa_cutoff": 6.0,
+      "shortlist_target": 223
+    },
+    {
+      "id": "COMP_002",
+      "name": "Accenture Tech",
+      "priority_tier": "MASS_RECRUITER",
+      "priority_tier_val": 1,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 30,
+      "panel_count": 12,
+      "cgpa_cutoff": 6.0,
+      "shortlist_target": 251
+    },
+    {
+      "id": "COMP_003",
+      "name": "Infosys Systems",
+      "priority_tier": "MASS_RECRUITER",
+      "priority_tier_val": 1,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 30,
+      "panel_count": 11,
+      "cgpa_cutoff": 6.0,
+      "shortlist_target": 237
+    },
+    {
+      "id": "COMP_004",
+      "name": "Cognizant Technology",
+      "priority_tier": "MASS_RECRUITER",
+      "priority_tier_val": 1,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 30,
+      "panel_count": 10,
+      "cgpa_cutoff": 6.0,
+      "shortlist_target": 306
+    },
+    {
+      "id": "COMP_005",
+      "name": "Capgemini Engineering",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 6,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 67
+    },
+    {
+      "id": "COMP_006",
+      "name": "Wipro Turbo",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 4,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 53
+    },
+    {
+      "id": "COMP_007",
+      "name": "LTI Mindtree",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 6,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 41
+    },
+    {
+      "id": "COMP_008",
+      "name": "HCL Tech",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        1,
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 6,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 74
+    },
+    {
+      "id": "COMP_009",
+      "name": "Dell Technologies",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 5,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 40
+    },
+    {
+      "id": "COMP_010",
+      "name": "Bosch India",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 5,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 61
+    },
+    {
+      "id": "COMP_011",
+      "name": "Schneider Electric",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 4,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 61
+    },
+    {
+      "id": "COMP_012",
+      "name": "Oracle Financial",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 5,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 46
+    },
+    {
+      "id": "COMP_013",
+      "name": "Samsung R&D",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 5,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 56
+    },
+    {
+      "id": "COMP_014",
+      "name": "Siemens Healthineers",
+      "priority_tier": "MID_TIER",
+      "priority_tier_val": 2,
+      "interview_day_mask": [
+        1,
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 6,
+      "cgpa_cutoff": 7.0,
+      "shortlist_target": 47
+    },
+    {
+      "id": "COMP_015",
+      "name": "Zscaler Cyber",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        1,
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 2,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 42
+    },
+    {
+      "id": "COMP_016",
+      "name": "Nvidia Embedded",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        3
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 4,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 44
+    },
+    {
+      "id": "COMP_017",
+      "name": "Qualcomm Wireless",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        3
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 4,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 31
+    },
+    {
+      "id": "COMP_018",
+      "name": "Texas Instruments",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 2,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 32
+    },
+    {
+      "id": "COMP_019",
+      "name": "AMD VLSI",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        3
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 2,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 32
+    },
+    {
+      "id": "COMP_020",
+      "name": "Palo Alto Networks",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 3,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 33
+    },
+    {
+      "id": "COMP_021",
+      "name": "Thoughtworks",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        1,
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 4,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 36
+    },
+    {
+      "id": "COMP_022",
+      "name": "Synopsys Systems",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 3,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 36
+    },
+    {
+      "id": "COMP_023",
+      "name": "Cadence Design",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 4,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 33
+    },
+    {
+      "id": "COMP_024",
+      "name": "Cisco Systems",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        1
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 4,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 45
+    },
+    {
+      "id": "COMP_025",
+      "name": "Akamai Networks",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 4,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 32
+    },
+    {
+      "id": "COMP_026",
+      "name": "Juniper Cloud",
+      "priority_tier": "NICHE",
+      "priority_tier_val": 3,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 45,
+      "panel_count": 3,
+      "cgpa_cutoff": 7.5,
+      "shortlist_target": 37
+    },
+    {
+      "id": "COMP_027",
+      "name": "Google India",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        3
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 2,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 25
+    },
+    {
+      "id": "COMP_028",
+      "name": "Microsoft IDC",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 2,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 16
+    },
+    {
+      "id": "COMP_029",
+      "name": "Atlassian Tech",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        3
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 3,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 23
+    },
+    {
+      "id": "COMP_030",
+      "name": "Uber Engineering",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 2,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 25
+    },
+    {
+      "id": "COMP_031",
+      "name": "Amazon AWS",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        2
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 3,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 27
+    },
+    {
+      "id": "COMP_032",
+      "name": "Directi Media",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        2,
+        3
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 3,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 19
+    },
+    {
+      "id": "COMP_033",
+      "name": "Goldman Sachs",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        3
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 2,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 22
+    },
+    {
+      "id": "COMP_034",
+      "name": "DE Shaw & Co",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        2,
+        3
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 3,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 28
+    },
+    {
+      "id": "COMP_035",
+      "name": "Arcesium",
+      "priority_tier": "DREAM",
+      "priority_tier_val": 4,
+      "interview_day_mask": [
+        2,
+        3
+      ],
+      "interview_duration_mins": 60,
+      "panel_count": 3,
+      "cgpa_cutoff": 8.5,
+      "shortlist_target": 26
+    }
+  ],
+  "students": [
+    {
+      "id": "STU_0001",
+      "name": "Rohan Verma",
+      "cgpa": 8.91,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_014",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0002",
+      "name": "Aditya Iyer",
+      "cgpa": 7.58,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0003",
+      "name": "Arjun Mehta",
+      "cgpa": 7.25,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_006"
+      ]
+    },
+    {
+      "id": "STU_0004",
+      "name": "Riya Sharma",
+      "cgpa": 7.79,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0005",
+      "name": "Rahul Joshi",
+      "cgpa": 9.32,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_007",
+        "COMP_008",
+        "COMP_010",
+        "COMP_011",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0006",
+      "name": "Divya Iyer",
+      "cgpa": 9.11,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_013",
+        "COMP_024",
+        "COMP_027",
+        "COMP_030"
+      ]
+    },
+    {
+      "id": "STU_0007",
+      "name": "Rahul Iyer",
+      "cgpa": 9.75,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_011",
+        "COMP_012",
+        "COMP_014",
+        "COMP_019",
+        "COMP_020",
+        "COMP_021",
+        "COMP_023",
+        "COMP_024",
+        "COMP_027",
+        "COMP_029",
+        "COMP_030",
+        "COMP_031"
+      ]
+    },
+    {
+      "id": "STU_0008",
+      "name": "Priya Reddy",
+      "cgpa": 6.96,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0009",
+      "name": "Pooja Iyer",
+      "cgpa": 6.87,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0010",
+      "name": "Karan Sharma",
+      "cgpa": 7.56,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0011",
+      "name": "Pooja Reddy",
+      "cgpa": 7.07,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0012",
+      "name": "Kavya Patel",
+      "cgpa": 7.64,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0013",
+      "name": "Riya Nair",
+      "cgpa": 7.18,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0014",
+      "name": "Ishita Iyer",
+      "cgpa": 7.64,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0015",
+      "name": "Vikram Gupta",
+      "cgpa": 8.4,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_011",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0016",
+      "name": "Arjun Kumar",
+      "cgpa": 6.77,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0017",
+      "name": "Kavya Patel",
+      "cgpa": 7.04,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0018",
+      "name": "Yash Deshmukh",
+      "cgpa": 7.54,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0019",
+      "name": "Ananya Deshmukh",
+      "cgpa": 9.32,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_013",
+        "COMP_014",
+        "COMP_015",
+        "COMP_021",
+        "COMP_022",
+        "COMP_025",
+        "COMP_031"
+      ]
+    },
+    {
+      "id": "STU_0020",
+      "name": "Ananya Joshi",
+      "cgpa": 7.68,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_010",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0021",
+      "name": "Vikram Nair",
+      "cgpa": 7.72,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0022",
+      "name": "Yash Bhat",
+      "cgpa": 9.23,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_019",
+        "COMP_022",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0023",
+      "name": "Priya Rao",
+      "cgpa": 6.49,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0024",
+      "name": "Pooja Chowdhury",
+      "cgpa": 7.79,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0025",
+      "name": "Abhinav Rao",
+      "cgpa": 7.84,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0026",
+      "name": "Tanvi Joshi",
+      "cgpa": 7.32,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0027",
+      "name": "Riya Mehta",
+      "cgpa": 8.15,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0028",
+      "name": "Sneha Kulkarni",
+      "cgpa": 8.05,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0029",
+      "name": "Riya Rao",
+      "cgpa": 7.91,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_008",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0030",
+      "name": "Riya Sharma",
+      "cgpa": 7.29,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0031",
+      "name": "Sneha Chowdhury",
+      "cgpa": 9.51,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_024",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0032",
+      "name": "Vikram Singh",
+      "cgpa": 6.65,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0033",
+      "name": "Arjun Kulkarni",
+      "cgpa": 7.64,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0034",
+      "name": "Varun Reddy",
+      "cgpa": 7.66,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0035",
+      "name": "Riya Bhat",
+      "cgpa": 10.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_009",
+        "COMP_010",
+        "COMP_013",
+        "COMP_016",
+        "COMP_018",
+        "COMP_020",
+        "COMP_024",
+        "COMP_025",
+        "COMP_027",
+        "COMP_028",
+        "COMP_030",
+        "COMP_031",
+        "COMP_032",
+        "COMP_033",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0036",
+      "name": "Neha Gupta",
+      "cgpa": 6.64,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0037",
+      "name": "Tanvi Joshi",
+      "cgpa": 6.39,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0038",
+      "name": "Yash Bhat",
+      "cgpa": 6.94,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0039",
+      "name": "Karan Patel",
+      "cgpa": 7.99,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0040",
+      "name": "Rohan Patel",
+      "cgpa": 7.09,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0041",
+      "name": "Yash Deshmukh",
+      "cgpa": 7.65,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0042",
+      "name": "Ananya Patel",
+      "cgpa": 8.15,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_005",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0043",
+      "name": "Rahul Gupta",
+      "cgpa": 6.44,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0044",
+      "name": "Siddharth Deshmukh",
+      "cgpa": 6.93,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0045",
+      "name": "Varun Joshi",
+      "cgpa": 8.68,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_012",
+        "COMP_025",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0046",
+      "name": "Rohan Sharma",
+      "cgpa": 8.76,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0047",
+      "name": "Rohan Gupta",
+      "cgpa": 10.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_010",
+        "COMP_013",
+        "COMP_015",
+        "COMP_017",
+        "COMP_018",
+        "COMP_019",
+        "COMP_024",
+        "COMP_029",
+        "COMP_030",
+        "COMP_031",
+        "COMP_032",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0048",
+      "name": "Aditya Kumar",
+      "cgpa": 7.56,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0049",
+      "name": "Sneha Mehta",
+      "cgpa": 8.37,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0050",
+      "name": "Nikhil Reddy",
+      "cgpa": 6.87,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0051",
+      "name": "Aarav Reddy",
+      "cgpa": 9.2,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_009",
+        "COMP_023",
+        "COMP_031"
+      ]
+    },
+    {
+      "id": "STU_0052",
+      "name": "Priya Nair",
+      "cgpa": 7.47,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0053",
+      "name": "Aditya Kulkarni",
+      "cgpa": 8.99,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_010",
+        "COMP_019",
+        "COMP_021",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0054",
+      "name": "Vikram Joshi",
+      "cgpa": 6.44,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0055",
+      "name": "Ishita Kulkarni",
+      "cgpa": 7.03,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0056",
+      "name": "Ananya Patel",
+      "cgpa": 6.96,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0057",
+      "name": "Siddharth Nair",
+      "cgpa": 7.76,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0058",
+      "name": "Rahul Iyer",
+      "cgpa": 7.31,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0059",
+      "name": "Aarav Rao",
+      "cgpa": 6.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0060",
+      "name": "Nikhil Nair",
+      "cgpa": 7.23,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0061",
+      "name": "Aditya Chowdhury",
+      "cgpa": 8.34,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_005",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0062",
+      "name": "Neha Kumar",
+      "cgpa": 6.35,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0063",
+      "name": "Pooja Gupta",
+      "cgpa": 8.22,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_008",
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0064",
+      "name": "Shreya Rao",
+      "cgpa": 5.51,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0065",
+      "name": "Meera Nair",
+      "cgpa": 5.51,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0066",
+      "name": "Kavya Iyer",
+      "cgpa": 6.78,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0067",
+      "name": "Aarav Iyer",
+      "cgpa": 8.45,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_011",
+        "COMP_013",
+        "COMP_016",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0068",
+      "name": "Siddharth Chowdhury",
+      "cgpa": 5.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0069",
+      "name": "Rahul Iyer",
+      "cgpa": 8.92,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_005",
+        "COMP_023",
+        "COMP_029",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0070",
+      "name": "Priya Singh",
+      "cgpa": 6.09,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0071",
+      "name": "Varun Kumar",
+      "cgpa": 8.09,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0072",
+      "name": "Kavya Deshmukh",
+      "cgpa": 6.99,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0073",
+      "name": "Rohan Kulkarni",
+      "cgpa": 7.94,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0074",
+      "name": "Karan Singh",
+      "cgpa": 8.52,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_014",
+        "COMP_015",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0075",
+      "name": "Aarav Rao",
+      "cgpa": 8.15,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0076",
+      "name": "Rahul Iyer",
+      "cgpa": 6.78,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0077",
+      "name": "Meera Chowdhury",
+      "cgpa": 7.91,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_011",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0078",
+      "name": "Siddharth Chowdhury",
+      "cgpa": 7.57,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0079",
+      "name": "Yash Gupta",
+      "cgpa": 6.52,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0080",
+      "name": "Nikhil Chowdhury",
+      "cgpa": 7.52,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0081",
+      "name": "Tanvi Gupta",
+      "cgpa": 8.82,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_022",
+        "COMP_026",
+        "COMP_028"
+      ]
+    },
+    {
+      "id": "STU_0082",
+      "name": "Rohan Joshi",
+      "cgpa": 6.98,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0083",
+      "name": "Neha Reddy",
+      "cgpa": 7.31,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0084",
+      "name": "Siddharth Singh",
+      "cgpa": 7.11,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0085",
+      "name": "Shreya Singh",
+      "cgpa": 6.92,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0086",
+      "name": "Sneha Reddy",
+      "cgpa": 7.36,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0087",
+      "name": "Vikram Chowdhury",
+      "cgpa": 8.07,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_013",
+        "COMP_025",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0088",
+      "name": "Meera Joshi",
+      "cgpa": 6.79,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0089",
+      "name": "Ishita Iyer",
+      "cgpa": 6.89,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0090",
+      "name": "Neha Joshi",
+      "cgpa": 7.87,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0091",
+      "name": "Neha Deshmukh",
+      "cgpa": 8.37,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_009",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0092",
+      "name": "Aditya Sharma",
+      "cgpa": 7.36,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0093",
+      "name": "Rohan Mehta",
+      "cgpa": 9.1,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_017",
+        "COMP_024",
+        "COMP_032",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0094",
+      "name": "Abhinav Gupta",
+      "cgpa": 7.45,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_005",
+        "COMP_007"
+      ]
+    },
+    {
+      "id": "STU_0095",
+      "name": "Aditya Sharma",
+      "cgpa": 6.77,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0096",
+      "name": "Priya Chowdhury",
+      "cgpa": 8.34,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0097",
+      "name": "Varun Verma",
+      "cgpa": 8.17,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_018"
+      ]
+    },
+    {
+      "id": "STU_0098",
+      "name": "Priya Mehta",
+      "cgpa": 6.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0099",
+      "name": "Riya Joshi",
+      "cgpa": 6.28,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0100",
+      "name": "Varun Chowdhury",
+      "cgpa": 7.9,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0101",
+      "name": "Tanvi Bhat",
+      "cgpa": 5.5,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0102",
+      "name": "Kavya Kulkarni",
+      "cgpa": 6.9,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0103",
+      "name": "Rahul Mehta",
+      "cgpa": 6.07,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0104",
+      "name": "Neha Deshmukh",
+      "cgpa": 7.39,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0105",
+      "name": "Aditya Nair",
+      "cgpa": 7.02,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0106",
+      "name": "Nikhil Nair",
+      "cgpa": 8.84,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_009",
+        "COMP_011",
+        "COMP_016",
+        "COMP_021",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0107",
+      "name": "Riya Mehta",
+      "cgpa": 8.64,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_008",
+        "COMP_027",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0108",
+      "name": "Vikram Chowdhury",
+      "cgpa": 8.04,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_010",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0109",
+      "name": "Aarav Singh",
+      "cgpa": 7.93,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0110",
+      "name": "Pooja Reddy",
+      "cgpa": 5.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0111",
+      "name": "Divya Deshmukh",
+      "cgpa": 9.25,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_007",
+        "COMP_010",
+        "COMP_020",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0112",
+      "name": "Rahul Chowdhury",
+      "cgpa": 5.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0113",
+      "name": "Arjun Iyer",
+      "cgpa": 6.35,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0114",
+      "name": "Aditya Sharma",
+      "cgpa": 8.65,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0115",
+      "name": "Rohan Chowdhury",
+      "cgpa": 6.24,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0116",
+      "name": "Varun Iyer",
+      "cgpa": 6.71,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0117",
+      "name": "Siddharth Joshi",
+      "cgpa": 7.05,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0118",
+      "name": "Arjun Kulkarni",
+      "cgpa": 8.12,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_009",
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0119",
+      "name": "Rohan Bhat",
+      "cgpa": 8.01,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_005",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0120",
+      "name": "Riya Verma",
+      "cgpa": 6.87,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0121",
+      "name": "Abhinav Verma",
+      "cgpa": 6.66,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0122",
+      "name": "Kavya Gupta",
+      "cgpa": 8.89,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_030",
+        "COMP_031"
+      ]
+    },
+    {
+      "id": "STU_0123",
+      "name": "Ishita Rao",
+      "cgpa": 7.01,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0124",
+      "name": "Vikram Mehta",
+      "cgpa": 7.04,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0125",
+      "name": "Meera Rao",
+      "cgpa": 7.67,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0126",
+      "name": "Sneha Reddy",
+      "cgpa": 6.94,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0127",
+      "name": "Shreya Singh",
+      "cgpa": 8.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0128",
+      "name": "Nikhil Gupta",
+      "cgpa": 7.75,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0129",
+      "name": "Priya Reddy",
+      "cgpa": 7.04,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0130",
+      "name": "Meera Rao",
+      "cgpa": 6.16,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0131",
+      "name": "Riya Chowdhury",
+      "cgpa": 7.31,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0132",
+      "name": "Rohan Joshi",
+      "cgpa": 7.47,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0133",
+      "name": "Divya Kumar",
+      "cgpa": 6.48,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0134",
+      "name": "Varun Nair",
+      "cgpa": 8.21,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0135",
+      "name": "Rahul Bhat",
+      "cgpa": 7.31,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0136",
+      "name": "Tanvi Kulkarni",
+      "cgpa": 5.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0137",
+      "name": "Rahul Mehta",
+      "cgpa": 7.67,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0138",
+      "name": "Varun Singh",
+      "cgpa": 10.0,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_010",
+        "COMP_011",
+        "COMP_012",
+        "COMP_015",
+        "COMP_016",
+        "COMP_017",
+        "COMP_019",
+        "COMP_020",
+        "COMP_021",
+        "COMP_022",
+        "COMP_027",
+        "COMP_028",
+        "COMP_029",
+        "COMP_030",
+        "COMP_031"
+      ]
+    },
+    {
+      "id": "STU_0139",
+      "name": "Ishita Gupta",
+      "cgpa": 6.63,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0140",
+      "name": "Rahul Joshi",
+      "cgpa": 7.63,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_012",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0141",
+      "name": "Riya Sharma",
+      "cgpa": 5.74,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0142",
+      "name": "Vikram Patel",
+      "cgpa": 6.31,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0143",
+      "name": "Kavya Bhat",
+      "cgpa": 6.43,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0144",
+      "name": "Ishita Mehta",
+      "cgpa": 8.38,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_006",
+        "COMP_021",
+        "COMP_023",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0145",
+      "name": "Nikhil Deshmukh",
+      "cgpa": 8.25,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0146",
+      "name": "Yash Kumar",
+      "cgpa": 8.03,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_012",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0147",
+      "name": "Tanvi Joshi",
+      "cgpa": 6.46,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0148",
+      "name": "Varun Kulkarni",
+      "cgpa": 7.38,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0149",
+      "name": "Siddharth Rao",
+      "cgpa": 7.81,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_017"
+      ]
+    },
+    {
+      "id": "STU_0150",
+      "name": "Nikhil Iyer",
+      "cgpa": 9.35,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_006",
+        "COMP_009",
+        "COMP_011",
+        "COMP_024",
+        "COMP_025",
+        "COMP_033",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0151",
+      "name": "Yash Reddy",
+      "cgpa": 7.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0152",
+      "name": "Vikram Reddy",
+      "cgpa": 6.72,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0153",
+      "name": "Riya Nair",
+      "cgpa": 7.68,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_011",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0154",
+      "name": "Ananya Reddy",
+      "cgpa": 7.77,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0155",
+      "name": "Ishita Rao",
+      "cgpa": 9.15,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_017",
+        "COMP_024",
+        "COMP_027",
+        "COMP_029"
+      ]
+    },
+    {
+      "id": "STU_0156",
+      "name": "Yash Reddy",
+      "cgpa": 9.18,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0157",
+      "name": "Ananya Kulkarni",
+      "cgpa": 6.95,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0158",
+      "name": "Ishita Rao",
+      "cgpa": 7.86,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0159",
+      "name": "Abhinav Verma",
+      "cgpa": 7.25,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0160",
+      "name": "Yash Reddy",
+      "cgpa": 7.85,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0161",
+      "name": "Divya Deshmukh",
+      "cgpa": 7.62,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0162",
+      "name": "Arjun Mehta",
+      "cgpa": 9.01,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_005",
+        "COMP_008",
+        "COMP_009",
+        "COMP_010",
+        "COMP_013",
+        "COMP_022",
+        "COMP_026",
+        "COMP_028",
+        "COMP_032"
+      ]
+    },
+    {
+      "id": "STU_0163",
+      "name": "Divya Reddy",
+      "cgpa": 7.17,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0164",
+      "name": "Ananya Rao",
+      "cgpa": 9.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_008",
+        "COMP_021",
+        "COMP_023",
+        "COMP_031",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0165",
+      "name": "Shreya Patel",
+      "cgpa": 7.8,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0166",
+      "name": "Sneha Patel",
+      "cgpa": 8.33,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0167",
+      "name": "Ishita Reddy",
+      "cgpa": 6.19,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0168",
+      "name": "Neha Reddy",
+      "cgpa": 8.51,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_013",
+        "COMP_014",
+        "COMP_021",
+        "COMP_024",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0169",
+      "name": "Rahul Gupta",
+      "cgpa": 5.99,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0170",
+      "name": "Riya Deshmukh",
+      "cgpa": 8.08,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0171",
+      "name": "Rohan Verma",
+      "cgpa": 9.33,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_017",
+        "COMP_020",
+        "COMP_021",
+        "COMP_024",
+        "COMP_026",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0172",
+      "name": "Neha Reddy",
+      "cgpa": 6.48,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0173",
+      "name": "Arjun Kulkarni",
+      "cgpa": 6.68,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0174",
+      "name": "Ishita Mehta",
+      "cgpa": 7.78,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0175",
+      "name": "Siddharth Kulkarni",
+      "cgpa": 8.73,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_011",
+        "COMP_018",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0176",
+      "name": "Kavya Sharma",
+      "cgpa": 7.89,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0177",
+      "name": "Ananya Iyer",
+      "cgpa": 7.19,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0178",
+      "name": "Abhinav Mehta",
+      "cgpa": 6.83,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0179",
+      "name": "Abhinav Bhat",
+      "cgpa": 8.21,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0180",
+      "name": "Ishita Kumar",
+      "cgpa": 8.93,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0181",
+      "name": "Sneha Joshi",
+      "cgpa": 7.38,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0182",
+      "name": "Ishita Reddy",
+      "cgpa": 8.07,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_016",
+        "COMP_019",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0183",
+      "name": "Ananya Mehta",
+      "cgpa": 6.09,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0184",
+      "name": "Rahul Joshi",
+      "cgpa": 8.69,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_006",
+        "COMP_021",
+        "COMP_025",
+        "COMP_028"
+      ]
+    },
+    {
+      "id": "STU_0185",
+      "name": "Aarav Mehta",
+      "cgpa": 7.91,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_008",
+        "COMP_009",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0186",
+      "name": "Vikram Kumar",
+      "cgpa": 5.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0187",
+      "name": "Ananya Gupta",
+      "cgpa": 6.41,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0188",
+      "name": "Aditya Reddy",
+      "cgpa": 7.61,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0189",
+      "name": "Abhinav Deshmukh",
+      "cgpa": 7.42,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0190",
+      "name": "Neha Sharma",
+      "cgpa": 7.07,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0191",
+      "name": "Priya Mehta",
+      "cgpa": 10.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_010",
+        "COMP_011",
+        "COMP_014",
+        "COMP_015",
+        "COMP_018",
+        "COMP_021",
+        "COMP_024",
+        "COMP_025",
+        "COMP_026",
+        "COMP_029",
+        "COMP_030"
+      ]
+    },
+    {
+      "id": "STU_0192",
+      "name": "Abhinav Nair",
+      "cgpa": 9.5,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0193",
+      "name": "Rahul Chowdhury",
+      "cgpa": 7.33,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0194",
+      "name": "Ishita Deshmukh",
+      "cgpa": 6.32,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0195",
+      "name": "Meera Nair",
+      "cgpa": 8.04,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0196",
+      "name": "Rahul Chowdhury",
+      "cgpa": 8.16,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_006",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0197",
+      "name": "Aarav Reddy",
+      "cgpa": 7.8,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0198",
+      "name": "Yash Bhat",
+      "cgpa": 6.76,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0199",
+      "name": "Siddharth Singh",
+      "cgpa": 6.4,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0200",
+      "name": "Siddharth Gupta",
+      "cgpa": 8.02,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_007"
+      ]
+    },
+    {
+      "id": "STU_0201",
+      "name": "Divya Verma",
+      "cgpa": 7.68,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0202",
+      "name": "Ishita Singh",
+      "cgpa": 8.68,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_021",
+        "COMP_022",
+        "COMP_024",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0203",
+      "name": "Aditya Bhat",
+      "cgpa": 6.55,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0204",
+      "name": "Aditya Joshi",
+      "cgpa": 5.85,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0205",
+      "name": "Karan Mehta",
+      "cgpa": 8.43,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0206",
+      "name": "Aditya Chowdhury",
+      "cgpa": 6.76,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0207",
+      "name": "Rahul Joshi",
+      "cgpa": 8.03,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_008",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0208",
+      "name": "Arjun Patel",
+      "cgpa": 7.52,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0209",
+      "name": "Arjun Joshi",
+      "cgpa": 8.91,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_006",
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0210",
+      "name": "Ishita Verma",
+      "cgpa": 5.86,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0211",
+      "name": "Neha Deshmukh",
+      "cgpa": 7.76,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0212",
+      "name": "Divya Rao",
+      "cgpa": 9.26,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_010",
+        "COMP_014",
+        "COMP_016",
+        "COMP_017",
+        "COMP_021"
+      ]
+    },
+    {
+      "id": "STU_0213",
+      "name": "Sneha Reddy",
+      "cgpa": 7.46,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0214",
+      "name": "Ananya Joshi",
+      "cgpa": 7.11,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0215",
+      "name": "Aditya Deshmukh",
+      "cgpa": 7.31,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0216",
+      "name": "Yash Iyer",
+      "cgpa": 8.63,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_007",
+        "COMP_021"
+      ]
+    },
+    {
+      "id": "STU_0217",
+      "name": "Meera Deshmukh",
+      "cgpa": 9.56,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008",
+        "COMP_011",
+        "COMP_012",
+        "COMP_021",
+        "COMP_033",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0218",
+      "name": "Yash Nair",
+      "cgpa": 8.66,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008",
+        "COMP_009",
+        "COMP_010",
+        "COMP_011",
+        "COMP_012",
+        "COMP_018",
+        "COMP_026",
+        "COMP_030"
+      ]
+    },
+    {
+      "id": "STU_0219",
+      "name": "Shreya Sharma",
+      "cgpa": 6.81,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0220",
+      "name": "Varun Reddy",
+      "cgpa": 6.67,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0221",
+      "name": "Pooja Reddy",
+      "cgpa": 8.25,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0222",
+      "name": "Divya Kulkarni",
+      "cgpa": 8.59,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_006",
+        "COMP_012",
+        "COMP_026",
+        "COMP_029",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0223",
+      "name": "Ishita Rao",
+      "cgpa": 6.24,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0224",
+      "name": "Yash Kumar",
+      "cgpa": 10.0,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_008",
+        "COMP_010",
+        "COMP_011",
+        "COMP_015",
+        "COMP_016",
+        "COMP_017",
+        "COMP_019",
+        "COMP_022",
+        "COMP_030",
+        "COMP_031",
+        "COMP_033",
+        "COMP_034",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0225",
+      "name": "Shreya Singh",
+      "cgpa": 8.52,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_007",
+        "COMP_014",
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0226",
+      "name": "Yash Verma",
+      "cgpa": 7.56,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0227",
+      "name": "Neha Deshmukh",
+      "cgpa": 7.54,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0228",
+      "name": "Pooja Deshmukh",
+      "cgpa": 5.52,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0229",
+      "name": "Tanvi Nair",
+      "cgpa": 6.4,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0230",
+      "name": "Abhinav Verma",
+      "cgpa": 6.46,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0231",
+      "name": "Tanvi Nair",
+      "cgpa": 6.25,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0232",
+      "name": "Neha Joshi",
+      "cgpa": 8.13,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0233",
+      "name": "Riya Kumar",
+      "cgpa": 7.86,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0234",
+      "name": "Rahul Iyer",
+      "cgpa": 8.12,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_015",
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0235",
+      "name": "Neha Joshi",
+      "cgpa": 8.17,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_007",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0236",
+      "name": "Varun Patel",
+      "cgpa": 6.47,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0237",
+      "name": "Tanvi Singh",
+      "cgpa": 9.73,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_005",
+        "COMP_008",
+        "COMP_010",
+        "COMP_011",
+        "COMP_018",
+        "COMP_022",
+        "COMP_024",
+        "COMP_026",
+        "COMP_029",
+        "COMP_032",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0238",
+      "name": "Riya Kumar",
+      "cgpa": 7.14,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0239",
+      "name": "Priya Mehta",
+      "cgpa": 6.92,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0240",
+      "name": "Tanvi Kulkarni",
+      "cgpa": 8.13,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_024",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0241",
+      "name": "Priya Deshmukh",
+      "cgpa": 8.75,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_028",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0242",
+      "name": "Meera Joshi",
+      "cgpa": 5.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0243",
+      "name": "Varun Reddy",
+      "cgpa": 7.67,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0244",
+      "name": "Priya Nair",
+      "cgpa": 7.99,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0245",
+      "name": "Priya Rao",
+      "cgpa": 10.0,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_010",
+        "COMP_011",
+        "COMP_019",
+        "COMP_021",
+        "COMP_027",
+        "COMP_028",
+        "COMP_031",
+        "COMP_032",
+        "COMP_033",
+        "COMP_034",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0246",
+      "name": "Riya Nair",
+      "cgpa": 8.45,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_010",
+        "COMP_014",
+        "COMP_020",
+        "COMP_023",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0247",
+      "name": "Nikhil Chowdhury",
+      "cgpa": 5.75,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0248",
+      "name": "Tanvi Nair",
+      "cgpa": 9.55,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008",
+        "COMP_013",
+        "COMP_017",
+        "COMP_018",
+        "COMP_019",
+        "COMP_023",
+        "COMP_024",
+        "COMP_030",
+        "COMP_032",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0249",
+      "name": "Meera Chowdhury",
+      "cgpa": 6.43,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0250",
+      "name": "Rahul Verma",
+      "cgpa": 5.88,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0251",
+      "name": "Kavya Kumar",
+      "cgpa": 7.84,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0252",
+      "name": "Shreya Kumar",
+      "cgpa": 8.77,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_007",
+        "COMP_013",
+        "COMP_015",
+        "COMP_016",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0253",
+      "name": "Arjun Kulkarni",
+      "cgpa": 8.63,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_009",
+        "COMP_012",
+        "COMP_015",
+        "COMP_025",
+        "COMP_029"
+      ]
+    },
+    {
+      "id": "STU_0254",
+      "name": "Priya Mehta",
+      "cgpa": 7.46,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0255",
+      "name": "Aarav Verma",
+      "cgpa": 7.97,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0256",
+      "name": "Kavya Nair",
+      "cgpa": 9.13,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_012",
+        "COMP_016",
+        "COMP_017",
+        "COMP_031",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0257",
+      "name": "Riya Gupta",
+      "cgpa": 8.17,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0258",
+      "name": "Kavya Joshi",
+      "cgpa": 9.59,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_011",
+        "COMP_024",
+        "COMP_028",
+        "COMP_029",
+        "COMP_030"
+      ]
+    },
+    {
+      "id": "STU_0259",
+      "name": "Rahul Nair",
+      "cgpa": 7.96,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_006"
+      ]
+    },
+    {
+      "id": "STU_0260",
+      "name": "Riya Kulkarni",
+      "cgpa": 6.16,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0261",
+      "name": "Aditya Sharma",
+      "cgpa": 9.3,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_006",
+        "COMP_014",
+        "COMP_016",
+        "COMP_030",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0262",
+      "name": "Kavya Joshi",
+      "cgpa": 9.01,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_006",
+        "COMP_012",
+        "COMP_017",
+        "COMP_029",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0263",
+      "name": "Divya Rao",
+      "cgpa": 7.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_017"
+      ]
+    },
+    {
+      "id": "STU_0264",
+      "name": "Ishita Mehta",
+      "cgpa": 8.17,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_005",
+        "COMP_015",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0265",
+      "name": "Karan Deshmukh",
+      "cgpa": 7.07,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0266",
+      "name": "Ananya Reddy",
+      "cgpa": 7.56,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0267",
+      "name": "Ishita Singh",
+      "cgpa": 7.98,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0268",
+      "name": "Priya Bhat",
+      "cgpa": 7.51,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0269",
+      "name": "Siddharth Nair",
+      "cgpa": 5.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0270",
+      "name": "Rahul Joshi",
+      "cgpa": 8.42,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_007",
+        "COMP_008",
+        "COMP_009",
+        "COMP_015",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0271",
+      "name": "Karan Chowdhury",
+      "cgpa": 6.85,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0272",
+      "name": "Nikhil Rao",
+      "cgpa": 7.07,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0273",
+      "name": "Tanvi Gupta",
+      "cgpa": 6.5,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0274",
+      "name": "Kavya Chowdhury",
+      "cgpa": 6.07,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0275",
+      "name": "Priya Joshi",
+      "cgpa": 6.51,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0276",
+      "name": "Shreya Kulkarni",
+      "cgpa": 7.93,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_014",
+        "COMP_017"
+      ]
+    },
+    {
+      "id": "STU_0277",
+      "name": "Rohan Patel",
+      "cgpa": 9.03,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_008",
+        "COMP_013",
+        "COMP_022",
+        "COMP_029"
+      ]
+    },
+    {
+      "id": "STU_0278",
+      "name": "Rohan Chowdhury",
+      "cgpa": 9.64,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_008",
+        "COMP_012",
+        "COMP_017",
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0279",
+      "name": "Riya Verma",
+      "cgpa": 7.46,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0280",
+      "name": "Riya Joshi",
+      "cgpa": 5.59,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0281",
+      "name": "Divya Verma",
+      "cgpa": 5.7,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0282",
+      "name": "Meera Reddy",
+      "cgpa": 8.79,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_010",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0283",
+      "name": "Shreya Bhat",
+      "cgpa": 6.93,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0284",
+      "name": "Priya Kumar",
+      "cgpa": 7.24,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0285",
+      "name": "Yash Deshmukh",
+      "cgpa": 6.34,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0286",
+      "name": "Riya Sharma",
+      "cgpa": 8.98,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0287",
+      "name": "Aarav Iyer",
+      "cgpa": 6.67,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0288",
+      "name": "Neha Joshi",
+      "cgpa": 6.18,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0289",
+      "name": "Shreya Singh",
+      "cgpa": 7.86,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0290",
+      "name": "Tanvi Sharma",
+      "cgpa": 8.16,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_017",
+        "COMP_018",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0291",
+      "name": "Varun Joshi",
+      "cgpa": 6.55,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0292",
+      "name": "Neha Joshi",
+      "cgpa": 7.4,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0293",
+      "name": "Ananya Nair",
+      "cgpa": 7.18,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0294",
+      "name": "Meera Verma",
+      "cgpa": 7.41,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0295",
+      "name": "Ishita Mehta",
+      "cgpa": 7.38,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0296",
+      "name": "Vikram Rao",
+      "cgpa": 9.2,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_018",
+        "COMP_019",
+        "COMP_024",
+        "COMP_029"
+      ]
+    },
+    {
+      "id": "STU_0297",
+      "name": "Yash Bhat",
+      "cgpa": 8.87,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_023",
+        "COMP_028"
+      ]
+    },
+    {
+      "id": "STU_0298",
+      "name": "Neha Verma",
+      "cgpa": 8.66,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_006",
+        "COMP_007",
+        "COMP_008",
+        "COMP_027"
+      ]
+    },
+    {
+      "id": "STU_0299",
+      "name": "Vikram Reddy",
+      "cgpa": 7.97,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0300",
+      "name": "Aditya Kulkarni",
+      "cgpa": 7.56,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0301",
+      "name": "Divya Iyer",
+      "cgpa": 8.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_006",
+        "COMP_007"
+      ]
+    },
+    {
+      "id": "STU_0302",
+      "name": "Riya Deshmukh",
+      "cgpa": 8.48,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_011",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0303",
+      "name": "Rohan Singh",
+      "cgpa": 8.6,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_005",
+        "COMP_011",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0304",
+      "name": "Ananya Chowdhury",
+      "cgpa": 5.87,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0305",
+      "name": "Yash Chowdhury",
+      "cgpa": 9.53,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_009",
+        "COMP_013",
+        "COMP_014",
+        "COMP_015",
+        "COMP_016",
+        "COMP_018",
+        "COMP_021",
+        "COMP_030",
+        "COMP_033",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0306",
+      "name": "Nikhil Chowdhury",
+      "cgpa": 6.56,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0307",
+      "name": "Sneha Mehta",
+      "cgpa": 5.5,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0308",
+      "name": "Pooja Patel",
+      "cgpa": 9.21,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_008",
+        "COMP_009",
+        "COMP_016",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0309",
+      "name": "Arjun Patel",
+      "cgpa": 8.53,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_007",
+        "COMP_009",
+        "COMP_010",
+        "COMP_012",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0310",
+      "name": "Neha Joshi",
+      "cgpa": 8.33,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_013",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0311",
+      "name": "Abhinav Rao",
+      "cgpa": 7.68,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0312",
+      "name": "Vikram Kumar",
+      "cgpa": 7.17,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0313",
+      "name": "Aditya Deshmukh",
+      "cgpa": 9.13,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_011",
+        "COMP_020",
+        "COMP_022",
+        "COMP_031",
+        "COMP_032",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0314",
+      "name": "Rahul Gupta",
+      "cgpa": 7.19,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0315",
+      "name": "Rohan Iyer",
+      "cgpa": 8.66,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_010",
+        "COMP_011",
+        "COMP_017",
+        "COMP_019",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0316",
+      "name": "Abhinav Bhat",
+      "cgpa": 9.12,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_011",
+        "COMP_027"
+      ]
+    },
+    {
+      "id": "STU_0317",
+      "name": "Shreya Joshi",
+      "cgpa": 6.27,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0318",
+      "name": "Abhinav Joshi",
+      "cgpa": 7.04,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0319",
+      "name": "Neha Kulkarni",
+      "cgpa": 8.68,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_016",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0320",
+      "name": "Pooja Patel",
+      "cgpa": 8.09,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_005",
+        "COMP_008",
+        "COMP_019",
+        "COMP_020",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0321",
+      "name": "Neha Patel",
+      "cgpa": 7.24,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0322",
+      "name": "Rohan Singh",
+      "cgpa": 7.71,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0323",
+      "name": "Ananya Mehta",
+      "cgpa": 5.76,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0324",
+      "name": "Yash Gupta",
+      "cgpa": 6.95,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0325",
+      "name": "Ananya Mehta",
+      "cgpa": 6.98,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0326",
+      "name": "Siddharth Patel",
+      "cgpa": 7.7,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_008",
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0327",
+      "name": "Varun Mehta",
+      "cgpa": 7.99,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0328",
+      "name": "Meera Iyer",
+      "cgpa": 8.33,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_007",
+        "COMP_011",
+        "COMP_021"
+      ]
+    },
+    {
+      "id": "STU_0329",
+      "name": "Siddharth Verma",
+      "cgpa": 8.55,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0330",
+      "name": "Abhinav Joshi",
+      "cgpa": 7.06,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0331",
+      "name": "Neha Kulkarni",
+      "cgpa": 8.97,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_014",
+        "COMP_016",
+        "COMP_031",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0332",
+      "name": "Shreya Nair",
+      "cgpa": 8.53,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_016",
+        "COMP_017",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0333",
+      "name": "Pooja Reddy",
+      "cgpa": 7.07,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0334",
+      "name": "Nikhil Singh",
+      "cgpa": 7.3,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0335",
+      "name": "Riya Singh",
+      "cgpa": 7.48,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0336",
+      "name": "Siddharth Nair",
+      "cgpa": 7.15,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0337",
+      "name": "Shreya Patel",
+      "cgpa": 8.46,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0338",
+      "name": "Divya Kumar",
+      "cgpa": 6.01,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0339",
+      "name": "Siddharth Bhat",
+      "cgpa": 6.62,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0340",
+      "name": "Aditya Nair",
+      "cgpa": 10.0,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008",
+        "COMP_010",
+        "COMP_011",
+        "COMP_020",
+        "COMP_023",
+        "COMP_024",
+        "COMP_027",
+        "COMP_033",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0341",
+      "name": "Riya Verma",
+      "cgpa": 7.88,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_009",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0342",
+      "name": "Meera Nair",
+      "cgpa": 7.18,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0343",
+      "name": "Nikhil Iyer",
+      "cgpa": 7.99,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0344",
+      "name": "Ananya Chowdhury",
+      "cgpa": 8.17,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_013",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0345",
+      "name": "Meera Reddy",
+      "cgpa": 7.05,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0346",
+      "name": "Varun Deshmukh",
+      "cgpa": 5.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0347",
+      "name": "Ishita Gupta",
+      "cgpa": 6.87,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0348",
+      "name": "Yash Mehta",
+      "cgpa": 9.46,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_007",
+        "COMP_008",
+        "COMP_011",
+        "COMP_013",
+        "COMP_023",
+        "COMP_024",
+        "COMP_025",
+        "COMP_027"
+      ]
+    },
+    {
+      "id": "STU_0349",
+      "name": "Karan Chowdhury",
+      "cgpa": 7.39,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0350",
+      "name": "Vikram Nair",
+      "cgpa": 8.66,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_011",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0351",
+      "name": "Pooja Rao",
+      "cgpa": 8.79,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0352",
+      "name": "Karan Rao",
+      "cgpa": 8.01,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_021"
+      ]
+    },
+    {
+      "id": "STU_0353",
+      "name": "Karan Nair",
+      "cgpa": 7.67,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0354",
+      "name": "Rohan Deshmukh",
+      "cgpa": 6.72,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0355",
+      "name": "Divya Verma",
+      "cgpa": 9.5,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_010",
+        "COMP_027",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0356",
+      "name": "Pooja Deshmukh",
+      "cgpa": 5.92,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0357",
+      "name": "Siddharth Rao",
+      "cgpa": 8.28,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_016",
+        "COMP_018"
+      ]
+    },
+    {
+      "id": "STU_0358",
+      "name": "Abhinav Joshi",
+      "cgpa": 7.98,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0359",
+      "name": "Ishita Nair",
+      "cgpa": 8.19,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0360",
+      "name": "Ishita Mehta",
+      "cgpa": 8.29,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0361",
+      "name": "Vikram Nair",
+      "cgpa": 7.78,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0362",
+      "name": "Tanvi Chowdhury",
+      "cgpa": 7.48,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0363",
+      "name": "Ananya Deshmukh",
+      "cgpa": 7.38,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0364",
+      "name": "Meera Mehta",
+      "cgpa": 8.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_005",
+        "COMP_013",
+        "COMP_021",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0365",
+      "name": "Riya Sharma",
+      "cgpa": 8.27,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0366",
+      "name": "Yash Deshmukh",
+      "cgpa": 6.49,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0367",
+      "name": "Pooja Deshmukh",
+      "cgpa": 7.58,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0368",
+      "name": "Sneha Patel",
+      "cgpa": 7.66,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0369",
+      "name": "Riya Sharma",
+      "cgpa": 5.86,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0370",
+      "name": "Ishita Verma",
+      "cgpa": 9.69,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_011",
+        "COMP_012",
+        "COMP_015",
+        "COMP_017",
+        "COMP_018",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0371",
+      "name": "Aarav Kumar",
+      "cgpa": 8.44,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0372",
+      "name": "Pooja Deshmukh",
+      "cgpa": 7.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0373",
+      "name": "Tanvi Joshi",
+      "cgpa": 6.29,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0374",
+      "name": "Pooja Joshi",
+      "cgpa": 6.24,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0375",
+      "name": "Varun Bhat",
+      "cgpa": 8.47,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0376",
+      "name": "Aditya Patel",
+      "cgpa": 9.3,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_010",
+        "COMP_012",
+        "COMP_014",
+        "COMP_019",
+        "COMP_029",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0377",
+      "name": "Vikram Verma",
+      "cgpa": 7.88,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_007"
+      ]
+    },
+    {
+      "id": "STU_0378",
+      "name": "Ananya Joshi",
+      "cgpa": 7.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0379",
+      "name": "Riya Bhat",
+      "cgpa": 5.5,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0380",
+      "name": "Abhinav Gupta",
+      "cgpa": 7.28,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0381",
+      "name": "Abhinav Joshi",
+      "cgpa": 7.82,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0382",
+      "name": "Pooja Chowdhury",
+      "cgpa": 7.34,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0383",
+      "name": "Arjun Joshi",
+      "cgpa": 7.5,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0384",
+      "name": "Ishita Bhat",
+      "cgpa": 5.5,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0385",
+      "name": "Rohan Chowdhury",
+      "cgpa": 7.85,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_006",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0386",
+      "name": "Meera Iyer",
+      "cgpa": 6.77,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0387",
+      "name": "Shreya Reddy",
+      "cgpa": 7.41,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0388",
+      "name": "Meera Chowdhury",
+      "cgpa": 8.01,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_005",
+        "COMP_012",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0389",
+      "name": "Tanvi Kumar",
+      "cgpa": 6.48,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0390",
+      "name": "Divya Kulkarni",
+      "cgpa": 8.01,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0391",
+      "name": "Shreya Singh",
+      "cgpa": 7.7,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0392",
+      "name": "Tanvi Iyer",
+      "cgpa": 7.23,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0393",
+      "name": "Varun Verma",
+      "cgpa": 8.54,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0394",
+      "name": "Kavya Kumar",
+      "cgpa": 8.78,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_015",
+        "COMP_022",
+        "COMP_030"
+      ]
+    },
+    {
+      "id": "STU_0395",
+      "name": "Aditya Mehta",
+      "cgpa": 7.87,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_005",
+        "COMP_006",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0396",
+      "name": "Pooja Mehta",
+      "cgpa": 7.51,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0397",
+      "name": "Arjun Joshi",
+      "cgpa": 6.39,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0398",
+      "name": "Kavya Rao",
+      "cgpa": 6.99,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0399",
+      "name": "Riya Rao",
+      "cgpa": 8.12,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0400",
+      "name": "Rahul Mehta",
+      "cgpa": 8.82,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_010",
+        "COMP_018",
+        "COMP_029"
+      ]
+    },
+    {
+      "id": "STU_0401",
+      "name": "Ishita Gupta",
+      "cgpa": 6.31,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0402",
+      "name": "Rohan Mehta",
+      "cgpa": 6.51,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0403",
+      "name": "Shreya Joshi",
+      "cgpa": 6.74,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0404",
+      "name": "Nikhil Patel",
+      "cgpa": 5.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0405",
+      "name": "Sneha Iyer",
+      "cgpa": 7.37,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0406",
+      "name": "Karan Deshmukh",
+      "cgpa": 8.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_007",
+        "COMP_011",
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0407",
+      "name": "Ishita Sharma",
+      "cgpa": 7.78,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_009",
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0408",
+      "name": "Yash Kumar",
+      "cgpa": 8.17,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_014",
+        "COMP_018"
+      ]
+    },
+    {
+      "id": "STU_0409",
+      "name": "Rohan Patel",
+      "cgpa": 8.18,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_014",
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0410",
+      "name": "Nikhil Bhat",
+      "cgpa": 7.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0411",
+      "name": "Rohan Nair",
+      "cgpa": 7.85,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0412",
+      "name": "Abhinav Patel",
+      "cgpa": 5.57,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0413",
+      "name": "Riya Iyer",
+      "cgpa": 7.17,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0414",
+      "name": "Aditya Chowdhury",
+      "cgpa": 6.68,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0415",
+      "name": "Karan Nair",
+      "cgpa": 9.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_007",
+        "COMP_009",
+        "COMP_010",
+        "COMP_011",
+        "COMP_014",
+        "COMP_029",
+        "COMP_031",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0416",
+      "name": "Sneha Joshi",
+      "cgpa": 6.07,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0417",
+      "name": "Karan Reddy",
+      "cgpa": 8.01,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_010",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0418",
+      "name": "Rahul Gupta",
+      "cgpa": 10.0,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_027",
+        "COMP_031"
+      ]
+    },
+    {
+      "id": "STU_0419",
+      "name": "Neha Patel",
+      "cgpa": 7.06,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0420",
+      "name": "Sneha Nair",
+      "cgpa": 7.42,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0421",
+      "name": "Siddharth Verma",
+      "cgpa": 5.92,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0422",
+      "name": "Aarav Patel",
+      "cgpa": 5.93,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0423",
+      "name": "Abhinav Gupta",
+      "cgpa": 6.69,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0424",
+      "name": "Divya Sharma",
+      "cgpa": 6.48,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0425",
+      "name": "Neha Bhat",
+      "cgpa": 6.97,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0426",
+      "name": "Shreya Singh",
+      "cgpa": 6.95,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0427",
+      "name": "Varun Chowdhury",
+      "cgpa": 7.95,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0428",
+      "name": "Vikram Joshi",
+      "cgpa": 7.77,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0429",
+      "name": "Tanvi Kumar",
+      "cgpa": 6.93,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0430",
+      "name": "Aditya Kumar",
+      "cgpa": 9.22,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_013",
+        "COMP_014",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0431",
+      "name": "Priya Kulkarni",
+      "cgpa": 8.24,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_012",
+        "COMP_016",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0432",
+      "name": "Aditya Rao",
+      "cgpa": 8.11,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_010",
+        "COMP_012",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0433",
+      "name": "Divya Deshmukh",
+      "cgpa": 9.67,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_010",
+        "COMP_012",
+        "COMP_013",
+        "COMP_014",
+        "COMP_019",
+        "COMP_022",
+        "COMP_023",
+        "COMP_027",
+        "COMP_028",
+        "COMP_032"
+      ]
+    },
+    {
+      "id": "STU_0434",
+      "name": "Sneha Joshi",
+      "cgpa": 6.86,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0435",
+      "name": "Sneha Bhat",
+      "cgpa": 7.47,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0436",
+      "name": "Varun Bhat",
+      "cgpa": 6.9,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0437",
+      "name": "Arjun Mehta",
+      "cgpa": 7.12,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0438",
+      "name": "Vikram Kumar",
+      "cgpa": 7.61,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0439",
+      "name": "Abhinav Bhat",
+      "cgpa": 7.31,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0440",
+      "name": "Aarav Rao",
+      "cgpa": 9.06,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_008",
+        "COMP_010",
+        "COMP_018",
+        "COMP_024",
+        "COMP_031",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0441",
+      "name": "Arjun Kumar",
+      "cgpa": 8.91,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_012",
+        "COMP_016",
+        "COMP_018",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0442",
+      "name": "Ananya Gupta",
+      "cgpa": 6.41,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0443",
+      "name": "Varun Kulkarni",
+      "cgpa": 7.34,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0444",
+      "name": "Meera Rao",
+      "cgpa": 8.66,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_031"
+      ]
+    },
+    {
+      "id": "STU_0445",
+      "name": "Siddharth Kumar",
+      "cgpa": 8.47,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_014",
+        "COMP_016",
+        "COMP_019",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0446",
+      "name": "Vikram Singh",
+      "cgpa": 8.21,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_005",
+        "COMP_012",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0447",
+      "name": "Siddharth Bhat",
+      "cgpa": 8.17,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_015",
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0448",
+      "name": "Aditya Nair",
+      "cgpa": 7.77,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0449",
+      "name": "Meera Reddy",
+      "cgpa": 7.1,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0450",
+      "name": "Karan Bhat",
+      "cgpa": 7.17,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0451",
+      "name": "Pooja Joshi",
+      "cgpa": 6.98,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0452",
+      "name": "Divya Reddy",
+      "cgpa": 9.52,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_015",
+        "COMP_025",
+        "COMP_026",
+        "COMP_027",
+        "COMP_028",
+        "COMP_031"
+      ]
+    },
+    {
+      "id": "STU_0453",
+      "name": "Aarav Bhat",
+      "cgpa": 7.34,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0454",
+      "name": "Abhinav Deshmukh",
+      "cgpa": 5.94,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0455",
+      "name": "Abhinav Singh",
+      "cgpa": 7.02,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0456",
+      "name": "Shreya Deshmukh",
+      "cgpa": 7.26,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0457",
+      "name": "Aarav Mehta",
+      "cgpa": 8.1,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_012",
+        "COMP_020",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0458",
+      "name": "Aditya Chowdhury",
+      "cgpa": 7.43,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0459",
+      "name": "Ishita Verma",
+      "cgpa": 5.99,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0460",
+      "name": "Karan Gupta",
+      "cgpa": 8.61,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_008",
+        "COMP_011",
+        "COMP_015",
+        "COMP_027"
+      ]
+    },
+    {
+      "id": "STU_0461",
+      "name": "Arjun Joshi",
+      "cgpa": 8.85,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_011",
+        "COMP_014",
+        "COMP_016",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0462",
+      "name": "Varun Joshi",
+      "cgpa": 7.59,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0463",
+      "name": "Shreya Kulkarni",
+      "cgpa": 6.61,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0464",
+      "name": "Vikram Deshmukh",
+      "cgpa": 5.62,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0465",
+      "name": "Neha Reddy",
+      "cgpa": 6.81,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0466",
+      "name": "Nikhil Bhat",
+      "cgpa": 10.0,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_010",
+        "COMP_012",
+        "COMP_015",
+        "COMP_016",
+        "COMP_020",
+        "COMP_023",
+        "COMP_031",
+        "COMP_033",
+        "COMP_034",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0467",
+      "name": "Tanvi Kulkarni",
+      "cgpa": 6.11,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0468",
+      "name": "Yash Singh",
+      "cgpa": 9.68,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_008",
+        "COMP_012",
+        "COMP_021",
+        "COMP_022",
+        "COMP_034",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0469",
+      "name": "Aditya Reddy",
+      "cgpa": 6.8,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0470",
+      "name": "Nikhil Patel",
+      "cgpa": 8.22,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0471",
+      "name": "Ishita Gupta",
+      "cgpa": 6.81,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0472",
+      "name": "Riya Kulkarni",
+      "cgpa": 7.9,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0473",
+      "name": "Meera Deshmukh",
+      "cgpa": 7.4,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0474",
+      "name": "Shreya Deshmukh",
+      "cgpa": 7.04,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0475",
+      "name": "Nikhil Bhat",
+      "cgpa": 8.67,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_010",
+        "COMP_013",
+        "COMP_019",
+        "COMP_021",
+        "COMP_024",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0476",
+      "name": "Aditya Sharma",
+      "cgpa": 7.97,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0477",
+      "name": "Abhinav Bhat",
+      "cgpa": 8.24,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0478",
+      "name": "Vikram Reddy",
+      "cgpa": 7.51,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0479",
+      "name": "Rohan Deshmukh",
+      "cgpa": 6.14,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0480",
+      "name": "Tanvi Verma",
+      "cgpa": 5.69,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0481",
+      "name": "Sneha Verma",
+      "cgpa": 8.63,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0482",
+      "name": "Arjun Bhat",
+      "cgpa": 9.63,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_010",
+        "COMP_020",
+        "COMP_021",
+        "COMP_024",
+        "COMP_026",
+        "COMP_028",
+        "COMP_032",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0483",
+      "name": "Neha Verma",
+      "cgpa": 7.59,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0484",
+      "name": "Yash Rao",
+      "cgpa": 5.5,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0485",
+      "name": "Abhinav Bhat",
+      "cgpa": 6.98,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0486",
+      "name": "Aditya Mehta",
+      "cgpa": 8.64,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0487",
+      "name": "Tanvi Mehta",
+      "cgpa": 7.96,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_013",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0488",
+      "name": "Nikhil Iyer",
+      "cgpa": 6.68,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0489",
+      "name": "Shreya Gupta",
+      "cgpa": 7.12,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0490",
+      "name": "Abhinav Singh",
+      "cgpa": 8.39,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_006",
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0491",
+      "name": "Shreya Rao",
+      "cgpa": 7.13,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0492",
+      "name": "Aditya Bhat",
+      "cgpa": 7.56,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0493",
+      "name": "Kavya Mehta",
+      "cgpa": 7.61,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0494",
+      "name": "Siddharth Reddy",
+      "cgpa": 8.46,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0495",
+      "name": "Pooja Deshmukh",
+      "cgpa": 6.83,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0496",
+      "name": "Priya Mehta",
+      "cgpa": 7.22,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0497",
+      "name": "Nikhil Reddy",
+      "cgpa": 6.52,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0498",
+      "name": "Abhinav Reddy",
+      "cgpa": 8.33,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_005",
+        "COMP_009",
+        "COMP_016",
+        "COMP_017"
+      ]
+    },
+    {
+      "id": "STU_0499",
+      "name": "Ishita Nair",
+      "cgpa": 8.1,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0500",
+      "name": "Meera Kumar",
+      "cgpa": 10.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_008",
+        "COMP_010",
+        "COMP_013",
+        "COMP_014",
+        "COMP_016",
+        "COMP_017",
+        "COMP_021",
+        "COMP_022",
+        "COMP_024",
+        "COMP_026",
+        "COMP_030",
+        "COMP_032",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0501",
+      "name": "Riya Gupta",
+      "cgpa": 6.42,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0502",
+      "name": "Shreya Patel",
+      "cgpa": 7.22,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0503",
+      "name": "Yash Rao",
+      "cgpa": 6.57,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0504",
+      "name": "Riya Gupta",
+      "cgpa": 7.42,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0505",
+      "name": "Karan Mehta",
+      "cgpa": 8.18,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_005",
+        "COMP_013",
+        "COMP_018",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0506",
+      "name": "Vikram Bhat",
+      "cgpa": 8.39,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_010",
+        "COMP_021",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0507",
+      "name": "Varun Nair",
+      "cgpa": 5.6,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0508",
+      "name": "Varun Verma",
+      "cgpa": 7.47,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0509",
+      "name": "Aarav Singh",
+      "cgpa": 7.16,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0510",
+      "name": "Aarav Gupta",
+      "cgpa": 6.76,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0511",
+      "name": "Rohan Verma",
+      "cgpa": 8.57,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0512",
+      "name": "Rohan Bhat",
+      "cgpa": 7.88,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0513",
+      "name": "Abhinav Chowdhury",
+      "cgpa": 6.02,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0514",
+      "name": "Arjun Mehta",
+      "cgpa": 8.62,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_010",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0515",
+      "name": "Shreya Nair",
+      "cgpa": 8.49,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_005",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0516",
+      "name": "Pooja Rao",
+      "cgpa": 7.01,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0517",
+      "name": "Tanvi Deshmukh",
+      "cgpa": 6.29,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0518",
+      "name": "Aarav Reddy",
+      "cgpa": 7.29,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0519",
+      "name": "Arjun Deshmukh",
+      "cgpa": 7.38,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0520",
+      "name": "Pooja Nair",
+      "cgpa": 6.47,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0521",
+      "name": "Priya Verma",
+      "cgpa": 9.23,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_023",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0522",
+      "name": "Divya Sharma",
+      "cgpa": 6.92,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0523",
+      "name": "Varun Verma",
+      "cgpa": 8.95,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_010",
+        "COMP_013",
+        "COMP_015",
+        "COMP_027",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0524",
+      "name": "Ananya Singh",
+      "cgpa": 8.21,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_020",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0525",
+      "name": "Ananya Nair",
+      "cgpa": 5.81,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0526",
+      "name": "Neha Deshmukh",
+      "cgpa": 7.14,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0527",
+      "name": "Meera Joshi",
+      "cgpa": 7.49,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0528",
+      "name": "Aditya Deshmukh",
+      "cgpa": 6.64,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0529",
+      "name": "Yash Iyer",
+      "cgpa": 7.38,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0530",
+      "name": "Divya Bhat",
+      "cgpa": 8.99,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_012",
+        "COMP_014",
+        "COMP_020",
+        "COMP_021",
+        "COMP_023",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0531",
+      "name": "Arjun Joshi",
+      "cgpa": 6.72,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0532",
+      "name": "Divya Nair",
+      "cgpa": 8.91,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_008",
+        "COMP_009",
+        "COMP_031",
+        "COMP_032"
+      ]
+    },
+    {
+      "id": "STU_0533",
+      "name": "Kavya Deshmukh",
+      "cgpa": 8.15,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_018"
+      ]
+    },
+    {
+      "id": "STU_0534",
+      "name": "Nikhil Nair",
+      "cgpa": 8.85,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_007",
+        "COMP_008",
+        "COMP_014",
+        "COMP_017",
+        "COMP_018",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0535",
+      "name": "Divya Nair",
+      "cgpa": 8.82,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0536",
+      "name": "Rahul Gupta",
+      "cgpa": 6.88,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0537",
+      "name": "Pooja Patel",
+      "cgpa": 8.66,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_005",
+        "COMP_013",
+        "COMP_018"
+      ]
+    },
+    {
+      "id": "STU_0538",
+      "name": "Vikram Verma",
+      "cgpa": 8.17,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0539",
+      "name": "Rohan Gupta",
+      "cgpa": 6.91,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0540",
+      "name": "Yash Gupta",
+      "cgpa": 6.27,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0541",
+      "name": "Aarav Gupta",
+      "cgpa": 8.28,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_014",
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0542",
+      "name": "Tanvi Rao",
+      "cgpa": 6.88,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0543",
+      "name": "Nikhil Gupta",
+      "cgpa": 7.67,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0544",
+      "name": "Kavya Joshi",
+      "cgpa": 5.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0545",
+      "name": "Pooja Reddy",
+      "cgpa": 6.61,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0546",
+      "name": "Karan Bhat",
+      "cgpa": 8.53,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0547",
+      "name": "Siddharth Gupta",
+      "cgpa": 8.17,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0548",
+      "name": "Divya Verma",
+      "cgpa": 5.93,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0549",
+      "name": "Rahul Chowdhury",
+      "cgpa": 7.71,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0550",
+      "name": "Vikram Joshi",
+      "cgpa": 8.21,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_010",
+        "COMP_021"
+      ]
+    },
+    {
+      "id": "STU_0551",
+      "name": "Riya Joshi",
+      "cgpa": 6.85,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0552",
+      "name": "Ishita Bhat",
+      "cgpa": 7.25,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0553",
+      "name": "Aditya Bhat",
+      "cgpa": 7.49,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0554",
+      "name": "Riya Verma",
+      "cgpa": 6.58,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0555",
+      "name": "Shreya Verma",
+      "cgpa": 7.83,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_005",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0556",
+      "name": "Divya Nair",
+      "cgpa": 7.23,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0557",
+      "name": "Aarav Gupta",
+      "cgpa": 7.8,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0558",
+      "name": "Pooja Verma",
+      "cgpa": 9.31,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_010",
+        "COMP_012",
+        "COMP_017",
+        "COMP_019",
+        "COMP_020",
+        "COMP_032",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0559",
+      "name": "Ishita Bhat",
+      "cgpa": 6.84,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0560",
+      "name": "Riya Chowdhury",
+      "cgpa": 6.28,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0561",
+      "name": "Neha Sharma",
+      "cgpa": 6.73,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0562",
+      "name": "Nikhil Chowdhury",
+      "cgpa": 7.44,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0563",
+      "name": "Priya Nair",
+      "cgpa": 8.04,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0564",
+      "name": "Meera Kulkarni",
+      "cgpa": 7.32,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0565",
+      "name": "Pooja Singh",
+      "cgpa": 7.48,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0566",
+      "name": "Kavya Deshmukh",
+      "cgpa": 8.7,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_012",
+        "COMP_016",
+        "COMP_022",
+        "COMP_023",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0567",
+      "name": "Abhinav Verma",
+      "cgpa": 7.81,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0568",
+      "name": "Arjun Singh",
+      "cgpa": 7.2,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0569",
+      "name": "Sneha Patel",
+      "cgpa": 7.74,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_006",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0570",
+      "name": "Divya Joshi",
+      "cgpa": 7.65,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0571",
+      "name": "Karan Verma",
+      "cgpa": 7.91,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0572",
+      "name": "Nikhil Bhat",
+      "cgpa": 7.22,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0573",
+      "name": "Rahul Verma",
+      "cgpa": 9.08,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_010",
+        "COMP_012",
+        "COMP_016",
+        "COMP_018",
+        "COMP_020",
+        "COMP_029"
+      ]
+    },
+    {
+      "id": "STU_0574",
+      "name": "Siddharth Sharma",
+      "cgpa": 6.83,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0575",
+      "name": "Nikhil Singh",
+      "cgpa": 6.03,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0576",
+      "name": "Neha Iyer",
+      "cgpa": 6.64,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0577",
+      "name": "Shreya Joshi",
+      "cgpa": 5.64,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0578",
+      "name": "Tanvi Nair",
+      "cgpa": 6.73,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0579",
+      "name": "Tanvi Kumar",
+      "cgpa": 7.43,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0580",
+      "name": "Divya Deshmukh",
+      "cgpa": 7.19,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0581",
+      "name": "Meera Singh",
+      "cgpa": 6.59,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0582",
+      "name": "Siddharth Sharma",
+      "cgpa": 9.19,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_011",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0583",
+      "name": "Kavya Kumar",
+      "cgpa": 7.85,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0584",
+      "name": "Arjun Chowdhury",
+      "cgpa": 6.42,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0585",
+      "name": "Meera Reddy",
+      "cgpa": 6.68,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0586",
+      "name": "Nikhil Patel",
+      "cgpa": 7.05,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0587",
+      "name": "Abhinav Nair",
+      "cgpa": 8.58,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_015",
+        "COMP_018",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0588",
+      "name": "Siddharth Kumar",
+      "cgpa": 9.03,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_006",
+        "COMP_020",
+        "COMP_022",
+        "COMP_023",
+        "COMP_026",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0589",
+      "name": "Pooja Kulkarni",
+      "cgpa": 8.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_006",
+        "COMP_009",
+        "COMP_011",
+        "COMP_018",
+        "COMP_023",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0590",
+      "name": "Rohan Iyer",
+      "cgpa": 7.63,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0591",
+      "name": "Priya Sharma",
+      "cgpa": 6.37,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0592",
+      "name": "Riya Patel",
+      "cgpa": 7.14,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0593",
+      "name": "Aarav Reddy",
+      "cgpa": 8.07,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0594",
+      "name": "Rohan Deshmukh",
+      "cgpa": 5.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0595",
+      "name": "Aditya Kulkarni",
+      "cgpa": 8.12,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0596",
+      "name": "Ishita Nair",
+      "cgpa": 8.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0597",
+      "name": "Ishita Patel",
+      "cgpa": 6.55,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0598",
+      "name": "Kavya Bhat",
+      "cgpa": 8.06,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0599",
+      "name": "Neha Sharma",
+      "cgpa": 7.78,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0600",
+      "name": "Siddharth Singh",
+      "cgpa": 8.09,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0601",
+      "name": "Abhinav Nair",
+      "cgpa": 7.12,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0602",
+      "name": "Meera Gupta",
+      "cgpa": 8.47,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0603",
+      "name": "Siddharth Reddy",
+      "cgpa": 8.09,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_005",
+        "COMP_007",
+        "COMP_009",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0604",
+      "name": "Abhinav Bhat",
+      "cgpa": 8.6,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0605",
+      "name": "Rahul Singh",
+      "cgpa": 7.79,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0606",
+      "name": "Yash Gupta",
+      "cgpa": 6.64,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0607",
+      "name": "Riya Sharma",
+      "cgpa": 6.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0608",
+      "name": "Varun Gupta",
+      "cgpa": 7.13,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0609",
+      "name": "Divya Bhat",
+      "cgpa": 7.17,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0610",
+      "name": "Neha Deshmukh",
+      "cgpa": 9.23,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_010",
+        "COMP_011",
+        "COMP_012",
+        "COMP_013",
+        "COMP_021",
+        "COMP_023",
+        "COMP_024",
+        "COMP_026",
+        "COMP_031",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0611",
+      "name": "Arjun Patel",
+      "cgpa": 8.25,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_005",
+        "COMP_009",
+        "COMP_011",
+        "COMP_017",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0612",
+      "name": "Meera Bhat",
+      "cgpa": 8.55,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0613",
+      "name": "Nikhil Chowdhury",
+      "cgpa": 5.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0614",
+      "name": "Pooja Patel",
+      "cgpa": 7.07,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0615",
+      "name": "Sneha Verma",
+      "cgpa": 7.62,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0616",
+      "name": "Abhinav Singh",
+      "cgpa": 9.23,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_009",
+        "COMP_010",
+        "COMP_012",
+        "COMP_014",
+        "COMP_016",
+        "COMP_019",
+        "COMP_020",
+        "COMP_022",
+        "COMP_026",
+        "COMP_030"
+      ]
+    },
+    {
+      "id": "STU_0617",
+      "name": "Priya Sharma",
+      "cgpa": 6.64,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0618",
+      "name": "Kavya Deshmukh",
+      "cgpa": 9.31,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_009",
+        "COMP_010",
+        "COMP_011",
+        "COMP_013",
+        "COMP_016",
+        "COMP_017",
+        "COMP_019",
+        "COMP_021",
+        "COMP_022",
+        "COMP_025",
+        "COMP_030",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0619",
+      "name": "Yash Nair",
+      "cgpa": 6.13,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0620",
+      "name": "Aarav Bhat",
+      "cgpa": 8.8,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_016",
+        "COMP_017",
+        "COMP_024",
+        "COMP_025",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0621",
+      "name": "Priya Nair",
+      "cgpa": 5.5,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0622",
+      "name": "Siddharth Mehta",
+      "cgpa": 9.02,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008",
+        "COMP_011",
+        "COMP_018",
+        "COMP_030"
+      ]
+    },
+    {
+      "id": "STU_0623",
+      "name": "Priya Mehta",
+      "cgpa": 6.59,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0624",
+      "name": "Varun Joshi",
+      "cgpa": 7.47,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0625",
+      "name": "Aarav Joshi",
+      "cgpa": 9.26,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_007",
+        "COMP_010",
+        "COMP_011",
+        "COMP_012",
+        "COMP_014",
+        "COMP_015",
+        "COMP_022",
+        "COMP_024",
+        "COMP_032",
+        "COMP_034",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0626",
+      "name": "Shreya Iyer",
+      "cgpa": 8.08,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0627",
+      "name": "Riya Iyer",
+      "cgpa": 7.52,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0628",
+      "name": "Divya Mehta",
+      "cgpa": 6.28,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0629",
+      "name": "Abhinav Chowdhury",
+      "cgpa": 7.02,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0630",
+      "name": "Tanvi Gupta",
+      "cgpa": 7.99,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_013",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0631",
+      "name": "Vikram Gupta",
+      "cgpa": 7.51,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0632",
+      "name": "Nikhil Patel",
+      "cgpa": 7.64,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0633",
+      "name": "Pooja Joshi",
+      "cgpa": 8.02,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0634",
+      "name": "Priya Kulkarni",
+      "cgpa": 6.3,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0635",
+      "name": "Siddharth Singh",
+      "cgpa": 5.5,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0636",
+      "name": "Yash Rao",
+      "cgpa": 7.79,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0637",
+      "name": "Shreya Reddy",
+      "cgpa": 8.46,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_008",
+        "COMP_012",
+        "COMP_016"
+      ]
+    },
+    {
+      "id": "STU_0638",
+      "name": "Yash Patel",
+      "cgpa": 6.34,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0639",
+      "name": "Priya Iyer",
+      "cgpa": 7.29,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0640",
+      "name": "Aditya Singh",
+      "cgpa": 8.35,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_009",
+        "COMP_013",
+        "COMP_017",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0641",
+      "name": "Sneha Bhat",
+      "cgpa": 8.3,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_005",
+        "COMP_006",
+        "COMP_015",
+        "COMP_016",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0642",
+      "name": "Nikhil Iyer",
+      "cgpa": 8.42,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0643",
+      "name": "Siddharth Mehta",
+      "cgpa": 7.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0644",
+      "name": "Pooja Sharma",
+      "cgpa": 7.64,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0645",
+      "name": "Riya Bhat",
+      "cgpa": 7.97,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0646",
+      "name": "Ishita Chowdhury",
+      "cgpa": 8.62,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0647",
+      "name": "Yash Sharma",
+      "cgpa": 6.98,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0648",
+      "name": "Kavya Reddy",
+      "cgpa": 7.83,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0649",
+      "name": "Varun Bhat",
+      "cgpa": 7.74,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_013",
+        "COMP_014"
+      ]
+    },
+    {
+      "id": "STU_0650",
+      "name": "Priya Rao",
+      "cgpa": 8.5,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_010"
+      ]
+    },
+    {
+      "id": "STU_0651",
+      "name": "Riya Verma",
+      "cgpa": 5.5,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0652",
+      "name": "Varun Gupta",
+      "cgpa": 6.7,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0653",
+      "name": "Kavya Reddy",
+      "cgpa": 9.26,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_006",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0654",
+      "name": "Ananya Mehta",
+      "cgpa": 8.84,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_005",
+        "COMP_008",
+        "COMP_012",
+        "COMP_016",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0655",
+      "name": "Priya Deshmukh",
+      "cgpa": 7.9,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0656",
+      "name": "Tanvi Kumar",
+      "cgpa": 7.24,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0657",
+      "name": "Meera Nair",
+      "cgpa": 6.71,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0658",
+      "name": "Vikram Verma",
+      "cgpa": 6.86,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0659",
+      "name": "Sneha Joshi",
+      "cgpa": 6.15,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0660",
+      "name": "Neha Reddy",
+      "cgpa": 7.3,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0661",
+      "name": "Shreya Rao",
+      "cgpa": 8.86,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_010",
+        "COMP_021",
+        "COMP_027",
+        "COMP_032"
+      ]
+    },
+    {
+      "id": "STU_0662",
+      "name": "Divya Verma",
+      "cgpa": 7.21,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0663",
+      "name": "Aditya Deshmukh",
+      "cgpa": 7.98,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_005",
+        "COMP_006"
+      ]
+    },
+    {
+      "id": "STU_0664",
+      "name": "Siddharth Deshmukh",
+      "cgpa": 7.18,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0665",
+      "name": "Yash Kulkarni",
+      "cgpa": 7.03,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0666",
+      "name": "Arjun Mehta",
+      "cgpa": 6.46,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0667",
+      "name": "Arjun Kulkarni",
+      "cgpa": 8.12,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0668",
+      "name": "Pooja Mehta",
+      "cgpa": 5.79,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0669",
+      "name": "Tanvi Patel",
+      "cgpa": 7.56,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0670",
+      "name": "Varun Kumar",
+      "cgpa": 7.67,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0671",
+      "name": "Divya Gupta",
+      "cgpa": 7.91,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0672",
+      "name": "Siddharth Reddy",
+      "cgpa": 6.54,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0673",
+      "name": "Ishita Joshi",
+      "cgpa": 6.35,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0674",
+      "name": "Ananya Verma",
+      "cgpa": 6.93,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0675",
+      "name": "Priya Iyer",
+      "cgpa": 7.86,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_017"
+      ]
+    },
+    {
+      "id": "STU_0676",
+      "name": "Aarav Chowdhury",
+      "cgpa": 6.41,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0677",
+      "name": "Abhinav Reddy",
+      "cgpa": 7.38,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0678",
+      "name": "Rahul Patel",
+      "cgpa": 7.06,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0679",
+      "name": "Abhinav Iyer",
+      "cgpa": 7.6,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0680",
+      "name": "Abhinav Reddy",
+      "cgpa": 8.66,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_014",
+        "COMP_015",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0681",
+      "name": "Rohan Rao",
+      "cgpa": 7.64,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0682",
+      "name": "Ishita Patel",
+      "cgpa": 6.44,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0683",
+      "name": "Aarav Sharma",
+      "cgpa": 7.85,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0684",
+      "name": "Priya Chowdhury",
+      "cgpa": 9.24,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008",
+        "COMP_013",
+        "COMP_017",
+        "COMP_026",
+        "COMP_028",
+        "COMP_030",
+        "COMP_031",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0685",
+      "name": "Rohan Rao",
+      "cgpa": 6.81,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0686",
+      "name": "Pooja Reddy",
+      "cgpa": 7.71,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_010",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0687",
+      "name": "Aditya Nair",
+      "cgpa": 7.87,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0688",
+      "name": "Yash Sharma",
+      "cgpa": 5.78,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0689",
+      "name": "Vikram Nair",
+      "cgpa": 8.13,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_005",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0690",
+      "name": "Meera Mehta",
+      "cgpa": 8.48,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0691",
+      "name": "Priya Singh",
+      "cgpa": 8.03,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0692",
+      "name": "Divya Joshi",
+      "cgpa": 7.86,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0693",
+      "name": "Kavya Reddy",
+      "cgpa": 7.62,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0694",
+      "name": "Nikhil Sharma",
+      "cgpa": 9.18,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_015",
+        "COMP_022",
+        "COMP_026",
+        "COMP_029"
+      ]
+    },
+    {
+      "id": "STU_0695",
+      "name": "Karan Gupta",
+      "cgpa": 7.09,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0696",
+      "name": "Neha Verma",
+      "cgpa": 6.82,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0697",
+      "name": "Arjun Rao",
+      "cgpa": 7.82,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0698",
+      "name": "Abhinav Patel",
+      "cgpa": 6.82,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0699",
+      "name": "Siddharth Nair",
+      "cgpa": 10.0,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_008",
+        "COMP_013",
+        "COMP_014",
+        "COMP_017",
+        "COMP_021",
+        "COMP_024",
+        "COMP_028",
+        "COMP_032",
+        "COMP_034",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0700",
+      "name": "Yash Chowdhury",
+      "cgpa": 7.15,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0701",
+      "name": "Rohan Sharma",
+      "cgpa": 6.84,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    },
+    {
+      "id": "STU_0702",
+      "name": "Aarav Kulkarni",
+      "cgpa": 5.9,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0703",
+      "name": "Arjun Reddy",
+      "cgpa": 9.97,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_014",
+        "COMP_025",
+        "COMP_027",
+        "COMP_029",
+        "COMP_031",
+        "COMP_032",
+        "COMP_033",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0704",
+      "name": "Karan Chowdhury",
+      "cgpa": 6.35,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0705",
+      "name": "Riya Nair",
+      "cgpa": 6.31,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0706",
+      "name": "Neha Patel",
+      "cgpa": 8.51,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_027"
+      ]
+    },
+    {
+      "id": "STU_0707",
+      "name": "Riya Joshi",
+      "cgpa": 8.18,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_007",
+        "COMP_009"
+      ]
+    },
+    {
+      "id": "STU_0708",
+      "name": "Abhinav Patel",
+      "cgpa": 9.51,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_008",
+        "COMP_010",
+        "COMP_016",
+        "COMP_017",
+        "COMP_020",
+        "COMP_025",
+        "COMP_026",
+        "COMP_030",
+        "COMP_033",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0709",
+      "name": "Kavya Verma",
+      "cgpa": 5.5,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0710",
+      "name": "Divya Rao",
+      "cgpa": 8.64,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0711",
+      "name": "Tanvi Iyer",
+      "cgpa": 6.87,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0712",
+      "name": "Nikhil Nair",
+      "cgpa": 7.0,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0713",
+      "name": "Karan Kulkarni",
+      "cgpa": 9.0,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_005",
+        "COMP_007",
+        "COMP_010",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0714",
+      "name": "Aditya Kulkarni",
+      "cgpa": 9.93,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008",
+        "COMP_010",
+        "COMP_012",
+        "COMP_015",
+        "COMP_018",
+        "COMP_021",
+        "COMP_022",
+        "COMP_023",
+        "COMP_024",
+        "COMP_027",
+        "COMP_028",
+        "COMP_029",
+        "COMP_030",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0715",
+      "name": "Siddharth Chowdhury",
+      "cgpa": 9.34,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_020",
+        "COMP_022",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0716",
+      "name": "Rohan Kulkarni",
+      "cgpa": 9.19,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_010",
+        "COMP_012",
+        "COMP_015",
+        "COMP_022",
+        "COMP_030",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0717",
+      "name": "Varun Kumar",
+      "cgpa": 7.21,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0718",
+      "name": "Yash Iyer",
+      "cgpa": 7.4,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0719",
+      "name": "Yash Rao",
+      "cgpa": 7.58,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0720",
+      "name": "Karan Sharma",
+      "cgpa": 8.11,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0721",
+      "name": "Ishita Kumar",
+      "cgpa": 8.14,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_008",
+        "COMP_023",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0722",
+      "name": "Aditya Iyer",
+      "cgpa": 6.98,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0723",
+      "name": "Nikhil Chowdhury",
+      "cgpa": 8.47,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_026"
+      ]
+    },
+    {
+      "id": "STU_0724",
+      "name": "Kavya Chowdhury",
+      "cgpa": 6.51,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0725",
+      "name": "Yash Kumar",
+      "cgpa": 6.72,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0726",
+      "name": "Shreya Verma",
+      "cgpa": 9.46,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_009",
+        "COMP_013",
+        "COMP_015",
+        "COMP_018",
+        "COMP_022",
+        "COMP_023",
+        "COMP_025",
+        "COMP_027",
+        "COMP_029",
+        "COMP_030",
+        "COMP_031",
+        "COMP_032"
+      ]
+    },
+    {
+      "id": "STU_0727",
+      "name": "Arjun Patel",
+      "cgpa": 8.64,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_008",
+        "COMP_012"
+      ]
+    },
+    {
+      "id": "STU_0728",
+      "name": "Neha Reddy",
+      "cgpa": 5.5,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0729",
+      "name": "Vikram Reddy",
+      "cgpa": 7.47,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0730",
+      "name": "Neha Deshmukh",
+      "cgpa": 7.55,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_006"
+      ]
+    },
+    {
+      "id": "STU_0731",
+      "name": "Vikram Deshmukh",
+      "cgpa": 6.52,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0732",
+      "name": "Divya Sharma",
+      "cgpa": 6.9,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0733",
+      "name": "Aarav Joshi",
+      "cgpa": 6.4,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0734",
+      "name": "Shreya Singh",
+      "cgpa": 9.33,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_007",
+        "COMP_010",
+        "COMP_011",
+        "COMP_014",
+        "COMP_015",
+        "COMP_018",
+        "COMP_020",
+        "COMP_023",
+        "COMP_024",
+        "COMP_029",
+        "COMP_031",
+        "COMP_033",
+        "COMP_035"
+      ]
+    },
+    {
+      "id": "STU_0735",
+      "name": "Karan Deshmukh",
+      "cgpa": 7.53,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0736",
+      "name": "Ananya Nair",
+      "cgpa": 7.09,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0737",
+      "name": "Karan Chowdhury",
+      "cgpa": 9.67,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_018",
+        "COMP_023",
+        "COMP_027"
+      ]
+    },
+    {
+      "id": "STU_0738",
+      "name": "Pooja Mehta",
+      "cgpa": 8.97,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_005",
+        "COMP_015",
+        "COMP_028"
+      ]
+    },
+    {
+      "id": "STU_0739",
+      "name": "Aditya Singh",
+      "cgpa": 8.02,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0740",
+      "name": "Yash Verma",
+      "cgpa": 7.85,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004",
+        "COMP_010",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0741",
+      "name": "Rahul Joshi",
+      "cgpa": 8.39,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0742",
+      "name": "Arjun Joshi",
+      "cgpa": 7.42,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0743",
+      "name": "Vikram Nair",
+      "cgpa": 7.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004",
+        "COMP_023"
+      ]
+    },
+    {
+      "id": "STU_0744",
+      "name": "Yash Rao",
+      "cgpa": 8.03,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0745",
+      "name": "Divya Rao",
+      "cgpa": 8.23,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003"
+      ]
+    },
+    {
+      "id": "STU_0746",
+      "name": "Vikram Mehta",
+      "cgpa": 8.66,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_013",
+        "COMP_029"
+      ]
+    },
+    {
+      "id": "STU_0747",
+      "name": "Sneha Reddy",
+      "cgpa": 7.55,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0748",
+      "name": "Nikhil Verma",
+      "cgpa": 8.15,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_005",
+        "COMP_009",
+        "COMP_015"
+      ]
+    },
+    {
+      "id": "STU_0749",
+      "name": "Nikhil Deshmukh",
+      "cgpa": 7.99,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0750",
+      "name": "Arjun Verma",
+      "cgpa": 7.11,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0751",
+      "name": "Aarav Singh",
+      "cgpa": 7.39,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0752",
+      "name": "Riya Deshmukh",
+      "cgpa": 10.0,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_013",
+        "COMP_014",
+        "COMP_016",
+        "COMP_017",
+        "COMP_026",
+        "COMP_027"
+      ]
+    },
+    {
+      "id": "STU_0753",
+      "name": "Priya Sharma",
+      "cgpa": 9.17,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_006",
+        "COMP_008",
+        "COMP_009",
+        "COMP_010",
+        "COMP_011",
+        "COMP_015",
+        "COMP_021",
+        "COMP_031",
+        "COMP_032"
+      ]
+    },
+    {
+      "id": "STU_0754",
+      "name": "Kavya Nair",
+      "cgpa": 8.77,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_009",
+        "COMP_013",
+        "COMP_015",
+        "COMP_019",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0755",
+      "name": "Abhinav Patel",
+      "cgpa": 6.24,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0756",
+      "name": "Rahul Patel",
+      "cgpa": 8.58,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_007",
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0757",
+      "name": "Varun Nair",
+      "cgpa": 9.78,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_005",
+        "COMP_010",
+        "COMP_014",
+        "COMP_018",
+        "COMP_027",
+        "COMP_031",
+        "COMP_033"
+      ]
+    },
+    {
+      "id": "STU_0758",
+      "name": "Siddharth Rao",
+      "cgpa": 8.54,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_021",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0759",
+      "name": "Yash Chowdhury",
+      "cgpa": 6.95,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0760",
+      "name": "Arjun Bhat",
+      "cgpa": 7.76,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0761",
+      "name": "Vikram Iyer",
+      "cgpa": 7.32,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0762",
+      "name": "Varun Nair",
+      "cgpa": 6.98,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0763",
+      "name": "Neha Bhat",
+      "cgpa": 6.99,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0764",
+      "name": "Riya Bhat",
+      "cgpa": 7.04,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0765",
+      "name": "Vikram Deshmukh",
+      "cgpa": 7.49,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0766",
+      "name": "Riya Sharma",
+      "cgpa": 8.19,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_004",
+        "COMP_007",
+        "COMP_024"
+      ]
+    },
+    {
+      "id": "STU_0767",
+      "name": "Riya Bhat",
+      "cgpa": 7.81,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0768",
+      "name": "Yash Joshi",
+      "cgpa": 6.58,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0769",
+      "name": "Kavya Sharma",
+      "cgpa": 8.01,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_008",
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0770",
+      "name": "Rahul Verma",
+      "cgpa": 8.47,
+      "branch": "MECH",
+      "shortlisted_company_ids": [
+        "COMP_007",
+        "COMP_008"
+      ]
+    },
+    {
+      "id": "STU_0771",
+      "name": "Yash Deshmukh",
+      "cgpa": 6.58,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0772",
+      "name": "Priya Deshmukh",
+      "cgpa": 7.78,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0773",
+      "name": "Tanvi Verma",
+      "cgpa": 7.39,
+      "branch": "ECE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0774",
+      "name": "Kavya Singh",
+      "cgpa": 9.61,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_003",
+        "COMP_004",
+        "COMP_005",
+        "COMP_006",
+        "COMP_014",
+        "COMP_019",
+        "COMP_020",
+        "COMP_022",
+        "COMP_024",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0775",
+      "name": "Sneha Deshmukh",
+      "cgpa": 8.73,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_011",
+        "COMP_012",
+        "COMP_013"
+      ]
+    },
+    {
+      "id": "STU_0776",
+      "name": "Tanvi Kumar",
+      "cgpa": 5.8,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0777",
+      "name": "Yash Nair",
+      "cgpa": 9.28,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004",
+        "COMP_011",
+        "COMP_012",
+        "COMP_016",
+        "COMP_021"
+      ]
+    },
+    {
+      "id": "STU_0778",
+      "name": "Vikram Bhat",
+      "cgpa": 7.9,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0779",
+      "name": "Ananya Deshmukh",
+      "cgpa": 7.74,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_011"
+      ]
+    },
+    {
+      "id": "STU_0780",
+      "name": "Aarav Bhat",
+      "cgpa": 7.87,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0781",
+      "name": "Aditya Joshi",
+      "cgpa": 8.24,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_011",
+        "COMP_025"
+      ]
+    },
+    {
+      "id": "STU_0782",
+      "name": "Siddharth Verma",
+      "cgpa": 7.24,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0783",
+      "name": "Priya Kumar",
+      "cgpa": 5.5,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0784",
+      "name": "Pooja Singh",
+      "cgpa": 6.33,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0785",
+      "name": "Sneha Chowdhury",
+      "cgpa": 7.1,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_005"
+      ]
+    },
+    {
+      "id": "STU_0786",
+      "name": "Ishita Joshi",
+      "cgpa": 8.43,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_002",
+        "COMP_003",
+        "COMP_008",
+        "COMP_011",
+        "COMP_018",
+        "COMP_019",
+        "COMP_020"
+      ]
+    },
+    {
+      "id": "STU_0787",
+      "name": "Meera Kumar",
+      "cgpa": 9.26,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_003",
+        "COMP_004",
+        "COMP_008",
+        "COMP_015",
+        "COMP_023",
+        "COMP_030",
+        "COMP_034"
+      ]
+    },
+    {
+      "id": "STU_0788",
+      "name": "Yash Iyer",
+      "cgpa": 7.27,
+      "branch": "CS",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0789",
+      "name": "Sneha Sharma",
+      "cgpa": 7.51,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001",
+        "COMP_004"
+      ]
+    },
+    {
+      "id": "STU_0790",
+      "name": "Yash Singh",
+      "cgpa": 6.69,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0791",
+      "name": "Sneha Joshi",
+      "cgpa": 7.79,
+      "branch": "MECH",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0792",
+      "name": "Meera Deshmukh",
+      "cgpa": 6.19,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0793",
+      "name": "Siddharth Patel",
+      "cgpa": 8.62,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_021",
+        "COMP_022"
+      ]
+    },
+    {
+      "id": "STU_0794",
+      "name": "Siddharth Iyer",
+      "cgpa": 8.38,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_003",
+        "COMP_005",
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0795",
+      "name": "Shreya Joshi",
+      "cgpa": 9.59,
+      "branch": "ECE",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_016",
+        "COMP_018",
+        "COMP_025",
+        "COMP_030"
+      ]
+    },
+    {
+      "id": "STU_0796",
+      "name": "Rahul Gupta",
+      "cgpa": 7.13,
+      "branch": "ISE",
+      "shortlisted_company_ids": []
+    },
+    {
+      "id": "STU_0797",
+      "name": "Priya Sharma",
+      "cgpa": 8.37,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002",
+        "COMP_004",
+        "COMP_009",
+        "COMP_011",
+        "COMP_014",
+        "COMP_016",
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0798",
+      "name": "Varun Chowdhury",
+      "cgpa": 7.95,
+      "branch": "CS",
+      "shortlisted_company_ids": [
+        "COMP_002"
+      ]
+    },
+    {
+      "id": "STU_0799",
+      "name": "Arjun Kumar",
+      "cgpa": 8.56,
+      "branch": "CIVIL",
+      "shortlisted_company_ids": [
+        "COMP_019"
+      ]
+    },
+    {
+      "id": "STU_0800",
+      "name": "Priya Bhat",
+      "cgpa": 6.75,
+      "branch": "ISE",
+      "shortlisted_company_ids": [
+        "COMP_001"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "ROOM_001",
+      "name": "Placement Block Hall 01",
+      "capacity": 8,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_002",
+      "name": "Placement Block Hall 02",
+      "capacity": 4,
+      "has_whiteboard": true,
+      "has_projector": false
+    },
+    {
+      "id": "ROOM_003",
+      "name": "Placement Block Hall 03",
+      "capacity": 4,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_004",
+      "name": "Placement Block Hall 04",
+      "capacity": 6,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_005",
+      "name": "Placement Block Hall 05",
+      "capacity": 6,
+      "has_whiteboard": true,
+      "has_projector": false
+    },
+    {
+      "id": "ROOM_006",
+      "name": "Placement Block Hall 06",
+      "capacity": 4,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_007",
+      "name": "Placement Block Hall 07",
+      "capacity": 6,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_008",
+      "name": "Placement Block Hall 08",
+      "capacity": 6,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_009",
+      "name": "Placement Block Hall 09",
+      "capacity": 8,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_010",
+      "name": "Placement Block Hall 10",
+      "capacity": 8,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_011",
+      "name": "Placement Block Hall 11",
+      "capacity": 6,
+      "has_whiteboard": true,
+      "has_projector": false
+    },
+    {
+      "id": "ROOM_012",
+      "name": "Placement Block Hall 12",
+      "capacity": 8,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_013",
+      "name": "Placement Block Hall 13",
+      "capacity": 6,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_014",
+      "name": "Placement Block Hall 14",
+      "capacity": 8,
+      "has_whiteboard": true,
+      "has_projector": false
+    },
+    {
+      "id": "ROOM_015",
+      "name": "Placement Block Hall 15",
+      "capacity": 4,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_016",
+      "name": "Placement Block Hall 16",
+      "capacity": 4,
+      "has_whiteboard": true,
+      "has_projector": false
+    },
+    {
+      "id": "ROOM_017",
+      "name": "Placement Block Hall 17",
+      "capacity": 4,
+      "has_whiteboard": true,
+      "has_projector": true
+    },
+    {
+      "id": "ROOM_018",
+      "name": "Placement Block Hall 18",
+      "capacity": 6,
+      "has_whiteboard": true,
+      "has_projector": false
+    },
+    {
+      "id": "ROOM_019",
+      "name": "Placement Block Hall 19",
+      "capacity": 8,
+      "has_whiteboard": true,
+      "has_projector": false
+    },
+    {
+      "id": "ROOM_020",
+      "name": "Placement Block Hall 20",
+      "capacity": 6,
+      "has_whiteboard": true,
+      "has_projector": true
+    }
+  ]
+}

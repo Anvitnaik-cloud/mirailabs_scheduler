@@ -1,0 +1,36 @@
+id,name,priority_tier,interview_day_mask,interview_duration_mins,panel_count,cgpa_cutoff,shortlist_target
+COMP_001,TCS Digital,MASS_RECRUITER,1,30,10,6.0,223
+COMP_002,Accenture Tech,MASS_RECRUITER,1,30,12,6.0,251
+COMP_003,Infosys Systems,MASS_RECRUITER,1,30,11,6.0,237
+COMP_004,Cognizant Technology,MASS_RECRUITER,1,30,10,6.0,306
+COMP_005,Capgemini Engineering,MID_TIER,2,45,6,7.0,67
+COMP_006,Wipro Turbo,MID_TIER,1,45,4,7.0,53
+COMP_007,LTI Mindtree,MID_TIER,1,45,6,7.0,41
+COMP_008,HCL Tech,MID_TIER,1;2,45,6,7.0,74
+COMP_009,Dell Technologies,MID_TIER,2,45,5,7.0,40
+COMP_010,Bosch India,MID_TIER,2,45,5,7.0,61
+COMP_011,Schneider Electric,MID_TIER,1,45,4,7.0,61
+COMP_012,Oracle Financial,MID_TIER,1,45,5,7.0,46
+COMP_013,Samsung R&D,MID_TIER,1,45,5,7.0,56
+COMP_014,Siemens Healthineers,MID_TIER,1;2,45,6,7.0,47
+COMP_015,Zscaler Cyber,NICHE,1;2,45,2,7.5,42
+COMP_016,Nvidia Embedded,NICHE,3,45,4,7.5,44
+COMP_017,Qualcomm Wireless,NICHE,3,45,4,7.5,31
+COMP_018,Texas Instruments,NICHE,1,45,2,7.5,32
+COMP_019,AMD VLSI,NICHE,3,45,2,7.5,32
+COMP_020,Palo Alto Networks,NICHE,1,45,3,7.5,33
+COMP_021,Thoughtworks,NICHE,1;2,45,4,7.5,36
+COMP_022,Synopsys Systems,NICHE,2,45,3,7.5,36
+COMP_023,Cadence Design,NICHE,2,45,4,7.5,33
+COMP_024,Cisco Systems,NICHE,1,45,4,7.5,45
+COMP_025,Akamai Networks,NICHE,2,45,4,7.5,32
+COMP_026,Juniper Cloud,NICHE,2,45,3,7.5,37
+COMP_027,Google India,DREAM,3,60,2,8.5,25
+COMP_028,Microsoft IDC,DREAM,2,60,2,8.5,16
+COMP_029,Atlassian Tech,DREAM,3,60,3,8.5,23
+COMP_030,Uber Engineering,DREAM,2,60,2,8.5,25
+COMP_031,Amazon AWS,DREAM,2,60,3,8.5,27
+COMP_032,Directi Media,DREAM,2;3,60,3,8.5,19
+COMP_033,Goldman Sachs,DREAM,3,60,2,8.5,22
+COMP_034,DE Shaw & Co,DREAM,2;3,60,3,8.5,28
+COMP_035,Arcesium,DREAM,2;3,60,3,8.5,26
