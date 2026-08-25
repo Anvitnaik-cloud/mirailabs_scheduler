@@ -3,83 +3,13 @@
   "metrics": {
     "total_interviews_requested": 2207,
     "scheduled_count": 505,
-    "unscheduled_count": 1702,
+    "unscheduled_count": 1689,
     "placement_rate_pct": 22.88,
-    "replan_churn_pct": 0.0,
-    "replan_churn_count": 0,
+    "replan_churn_pct": 2.57,
+    "replan_churn_count": 13,
     "room_utilization_pct": 93.52
   },
   "scheduled_interviews": [
-    {
-      "id": "INT_COMP_027_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_027",
-      "panel_id": "PANEL_COMP_027_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D3_0900_0930",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_028_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_028",
-      "panel_id": "PANEL_COMP_028_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D2_0900_0930",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_030_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_030",
-      "panel_id": "PANEL_COMP_030_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D2_1000_1030",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_031_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_031",
-      "panel_id": "PANEL_COMP_031_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D2_1100_1130",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_032_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_032",
-      "panel_id": "PANEL_COMP_032_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D2_1200_1230",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_033_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_033",
-      "panel_id": "PANEL_COMP_033_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D3_1000_1030",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_034_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_034",
-      "panel_id": "PANEL_COMP_034_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D2_1300_1330",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
     {
       "id": "INT_COMP_027_STU_0138",
       "student_id": "STU_0138",
@@ -1937,56 +1867,6 @@
       "panel_id": "PANEL_COMP_031_3",
       "room_id": "ROOM_010",
       "slot_id": "SLOT_D2_1700_1730",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_016_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_016",
-      "panel_id": "PANEL_COMP_016_1",
-      "room_id": "ROOM_008",
-      "slot_id": "SLOT_D3_1100_1130",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_018_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_018",
-      "panel_id": "PANEL_COMP_018_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D1_0900_0930",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_020_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_020",
-      "panel_id": "PANEL_COMP_020_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D1_1000_1030",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_024_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_024",
-      "panel_id": "PANEL_COMP_024_1",
-      "room_id": "ROOM_001",
-      "slot_id": "SLOT_D1_1100_1130",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
-      "id": "INT_COMP_025_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_025",
-      "panel_id": "PANEL_COMP_025_1",
-      "room_id": "ROOM_017",
-      "slot_id": "SLOT_D2_1400_1430",
       "status": "SCHEDULED",
       "unplacement_reason": null
     },
@@ -4611,16 +4491,6 @@
       "unplacement_reason": null
     },
     {
-      "id": "INT_COMP_013_STU_0035",
-      "student_id": "STU_0035",
-      "company_id": "COMP_013",
-      "panel_id": "PANEL_COMP_013_1",
-      "room_id": "ROOM_016",
-      "slot_id": "SLOT_D1_1200_1230",
-      "status": "SCHEDULED",
-      "unplacement_reason": null
-    },
-    {
       "id": "INT_COMP_006_STU_0714",
       "student_id": "STU_0714",
       "company_id": "COMP_006",
@@ -5059,6 +4929,136 @@
       "slot_id": "SLOT_D1_1700_1730",
       "status": "SCHEDULED",
       "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_027_STU_0298",
+      "student_id": "STU_0298",
+      "company_id": "COMP_027",
+      "panel_id": "PANEL_COMP_027_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D3_0900_0930",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_030_STU_0122",
+      "student_id": "STU_0122",
+      "company_id": "COMP_030",
+      "panel_id": "PANEL_COMP_030_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D2_1000_1030",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_033_STU_0069",
+      "student_id": "STU_0069",
+      "company_id": "COMP_033",
+      "panel_id": "PANEL_COMP_033_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D3_1000_1030",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_015_STU_0061",
+      "student_id": "STU_0061",
+      "company_id": "COMP_015",
+      "panel_id": "PANEL_COMP_015_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D2_0900_0930",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_015_STU_0074",
+      "student_id": "STU_0074",
+      "company_id": "COMP_015",
+      "panel_id": "PANEL_COMP_015_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D2_1100_1130",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_015_STU_0119",
+      "student_id": "STU_0119",
+      "company_id": "COMP_015",
+      "panel_id": "PANEL_COMP_015_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D2_1200_1230",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_015_STU_0196",
+      "student_id": "STU_0196",
+      "company_id": "COMP_015",
+      "panel_id": "PANEL_COMP_015_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D2_1300_1330",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_015_STU_0234",
+      "student_id": "STU_0234",
+      "company_id": "COMP_015",
+      "panel_id": "PANEL_COMP_015_1",
+      "room_id": "ROOM_017",
+      "slot_id": "SLOT_D2_1400_1430",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_016_STU_0145",
+      "student_id": "STU_0145",
+      "company_id": "COMP_016",
+      "panel_id": "PANEL_COMP_016_1",
+      "room_id": "ROOM_008",
+      "slot_id": "SLOT_D3_1100_1130",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_018_STU_0097",
+      "student_id": "STU_0097",
+      "company_id": "COMP_018",
+      "panel_id": "PANEL_COMP_018_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D1_0900_0930",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_020_STU_0108",
+      "student_id": "STU_0108",
+      "company_id": "COMP_020",
+      "panel_id": "PANEL_COMP_020_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D1_1000_1030",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_024_STU_0027",
+      "student_id": "STU_0027",
+      "company_id": "COMP_024",
+      "panel_id": "PANEL_COMP_024_1",
+      "room_id": "ROOM_001",
+      "slot_id": "SLOT_D1_1100_1130",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
+    },
+    {
+      "id": "INT_COMP_006_STU_0003",
+      "student_id": "STU_0003",
+      "company_id": "COMP_006",
+      "panel_id": "PANEL_COMP_006_1",
+      "room_id": "ROOM_016",
+      "slot_id": "SLOT_D1_1200_1230",
+      "status": "SCHEDULED",
+      "unplacement_reason": null
     }
   ],
   "unscheduled_interviews": [
@@ -5123,16 +5123,6 @@
       "unplacement_reason": "PANEL_CONTENTION"
     },
     {
-      "id": "INT_COMP_027_STU_0298",
-      "student_id": "STU_0298",
-      "company_id": "COMP_027",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "PANEL_CONTENTION"
-    },
-    {
       "id": "INT_COMP_027_STU_0460",
       "student_id": "STU_0460",
       "company_id": "COMP_027",
@@ -5186,26 +5176,6 @@
       "id": "INT_COMP_027_STU_0355",
       "student_id": "STU_0355",
       "company_id": "COMP_027",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "PANEL_CONTENTION"
-    },
-    {
-      "id": "INT_COMP_030_STU_0122",
-      "student_id": "STU_0122",
-      "company_id": "COMP_030",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "PANEL_CONTENTION"
-    },
-    {
-      "id": "INT_COMP_033_STU_0069",
-      "student_id": "STU_0069",
-      "company_id": "COMP_033",
       "panel_id": null,
       "room_id": null,
       "slot_id": null,
@@ -5503,16 +5473,6 @@
       "unplacement_reason": "ROOM_CONTENTION"
     },
     {
-      "id": "INT_COMP_015_STU_0074",
-      "student_id": "STU_0074",
-      "company_id": "COMP_015",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "ROOM_CONTENTION"
-    },
-    {
       "id": "INT_COMP_015_STU_0523",
       "student_id": "STU_0523",
       "company_id": "COMP_015",
@@ -5746,16 +5706,6 @@
       "id": "INT_COMP_026_STU_0588",
       "student_id": "STU_0588",
       "company_id": "COMP_026",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "ROOM_CONTENTION"
-    },
-    {
-      "id": "INT_COMP_015_STU_0234",
-      "student_id": "STU_0234",
-      "company_id": "COMP_015",
       "panel_id": null,
       "room_id": null,
       "slot_id": null,
@@ -6293,26 +6243,6 @@
       "unplacement_reason": "ROOM_CONTENTION"
     },
     {
-      "id": "INT_COMP_015_STU_0061",
-      "student_id": "STU_0061",
-      "company_id": "COMP_015",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "ROOM_CONTENTION"
-    },
-    {
-      "id": "INT_COMP_015_STU_0119",
-      "student_id": "STU_0119",
-      "company_id": "COMP_015",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "ROOM_CONTENTION"
-    },
-    {
       "id": "INT_COMP_015_STU_0264",
       "student_id": "STU_0264",
       "company_id": "COMP_015",
@@ -6543,16 +6473,6 @@
       "unplacement_reason": "ROOM_CONTENTION"
     },
     {
-      "id": "INT_COMP_015_STU_0196",
-      "student_id": "STU_0196",
-      "company_id": "COMP_015",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "ROOM_CONTENTION"
-    },
-    {
       "id": "INT_COMP_015_STU_0337",
       "student_id": "STU_0337",
       "company_id": "COMP_015",
@@ -6571,16 +6491,6 @@
       "slot_id": null,
       "status": "UNSCHEDULED",
       "unplacement_reason": "ROOM_CONTENTION"
-    },
-    {
-      "id": "INT_COMP_018_STU_0097",
-      "student_id": "STU_0097",
-      "company_id": "COMP_018",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "PANEL_CONTENTION"
     },
     {
       "id": "INT_COMP_018_STU_0408",
@@ -6616,16 +6526,6 @@
       "id": "INT_COMP_019_STU_0794",
       "student_id": "STU_0794",
       "company_id": "COMP_019",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "PANEL_CONTENTION"
-    },
-    {
-      "id": "INT_COMP_020_STU_0108",
-      "student_id": "STU_0108",
-      "company_id": "COMP_020",
       "panel_id": null,
       "room_id": null,
       "slot_id": null,
@@ -6833,16 +6733,6 @@
       "unplacement_reason": "ROOM_CONTENTION"
     },
     {
-      "id": "INT_COMP_016_STU_0145",
-      "student_id": "STU_0145",
-      "company_id": "COMP_016",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "PANEL_CONTENTION"
-    },
-    {
       "id": "INT_COMP_016_STU_0583",
       "student_id": "STU_0583",
       "company_id": "COMP_016",
@@ -6876,16 +6766,6 @@
       "id": "INT_COMP_020_STU_0739",
       "student_id": "STU_0739",
       "company_id": "COMP_020",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "PANEL_CONTENTION"
-    },
-    {
-      "id": "INT_COMP_024_STU_0027",
-      "student_id": "STU_0027",
-      "company_id": "COMP_024",
       "panel_id": null,
       "room_id": null,
       "slot_id": null,
@@ -11796,16 +11676,6 @@
       "id": "INT_COMP_005_STU_0644",
       "student_id": "STU_0644",
       "company_id": "COMP_005",
-      "panel_id": null,
-      "room_id": null,
-      "slot_id": null,
-      "status": "UNSCHEDULED",
-      "unplacement_reason": "ROOM_CONTENTION"
-    },
-    {
-      "id": "INT_COMP_006_STU_0003",
-      "student_id": "STU_0003",
-      "company_id": "COMP_006",
       "panel_id": null,
       "room_id": null,
       "slot_id": null,

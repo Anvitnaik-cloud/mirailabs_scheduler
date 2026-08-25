@@ -1,13 +1,21 @@
 """
 Placement Week Scheduler - REST API & Dashboard Server
 Serves coordinator dashboard UI and real-time replanning backend endpoints.
+
+Vercel Compatibility:
+- Uses Path(__file__).resolve() for robust path resolution.
+- Startup does NOT write files (data/ is bundled read-only from git).
+- Writable schedule state uses /tmp on serverless, falls back to data/ locally.
 """
 import json
 import os
+import platform
+import shutil
 import tempfile
 import threading
 from enum import Enum
 from dataclasses import asdict
+from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 from fastapi import FastAPI, HTTPException
@@ -21,10 +29,28 @@ from engine.scheduler import run_scheduler_from_dataset
 from engine.replanner import IncrementalReplanner
 
 
-API_DIR = os.path.dirname(os.path.abspath(__file__))
-PROJECT_ROOT = os.path.dirname(API_DIR)
-DATASET_PATH = os.path.join(PROJECT_ROOT, "data", "dataset.json")
-SCHEDULE_PATH = os.path.join(PROJECT_ROOT, "data", "schedule.json")
+# ---------------------------------------------------------------------------
+# Path resolution (works on both local dev and Vercel serverless)
+# ---------------------------------------------------------------------------
+API_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = API_DIR.parent
+
+DATASET_PATH_BUNDLED = PROJECT_ROOT / "data" / "dataset.json"
+SCHEDULE_PATH_BUNDLED = PROJECT_ROOT / "data" / "schedule.json"
+DASHBOARD_DIR = PROJECT_ROOT / "dashboard"
+
+# Detect serverless environment: Vercel sets VERCEL=1 and the filesystem
+# outside /tmp is read-only.  We use /tmp for writable schedule state.
+IS_SERVERLESS = os.environ.get("VERCEL") == "1" or os.environ.get("AWS_LAMBDA_FUNCTION_NAME") is not None
+
+if IS_SERVERLESS:
+    _TMP_DATA_DIR = Path("/tmp/placement_data")
+    _TMP_DATA_DIR.mkdir(parents=True, exist_ok=True)
+    DATASET_PATH = str(_TMP_DATA_DIR / "dataset.json")
+    SCHEDULE_PATH = str(_TMP_DATA_DIR / "schedule.json")
+else:
+    DATASET_PATH = str(DATASET_PATH_BUNDLED)
+    SCHEDULE_PATH = str(SCHEDULE_PATH_BUNDLED)
 
 # Mutex to prevent concurrent read/write races on schedule.json
 _schedule_lock = threading.Lock()
@@ -62,6 +88,7 @@ class CompoundDisruptionPayload(BaseModel):
 def _write_json_atomic(path: str, data: Any):
     """Write JSON to a temp file then atomically rename to prevent corruption."""
     dir_name = os.path.dirname(path) or "."
+    os.makedirs(dir_name, exist_ok=True)
     fd, tmp_path = tempfile.mkstemp(dir=dir_name, suffix=".tmp")
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as f:
@@ -73,23 +100,51 @@ def _write_json_atomic(path: str, data: Any):
         raise
 
 
+def _ensure_tmp_data():
+    """
+    On serverless: copy bundled read-only data files to /tmp if not already there.
+    On local: no-op (files are already in data/).
+    """
+    if IS_SERVERLESS:
+        if not os.path.exists(DATASET_PATH) and DATASET_PATH_BUNDLED.exists():
+            shutil.copy2(str(DATASET_PATH_BUNDLED), DATASET_PATH)
+        if not os.path.exists(SCHEDULE_PATH) and SCHEDULE_PATH_BUNDLED.exists():
+            shutil.copy2(str(SCHEDULE_PATH_BUNDLED), SCHEDULE_PATH)
+
+
 def _read_schedule_safe() -> Dict[str, Any]:
-    """Read schedule.json; if corrupted, regenerate from scratch."""
+    """Read schedule.json; if missing on serverless, copy from bundle first."""
+    _ensure_tmp_data()
     try:
         with open(SCHEDULE_PATH, "r", encoding="utf-8") as f:
             return json.load(f)
     except (json.JSONDecodeError, FileNotFoundError):
-        run_scheduler_from_dataset(DATASET_PATH, SCHEDULE_PATH)
-        with open(SCHEDULE_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
+        # Regenerate only if we have the dataset available
+        if os.path.exists(DATASET_PATH):
+            run_scheduler_from_dataset(DATASET_PATH, SCHEDULE_PATH)
+            with open(SCHEDULE_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        raise
 
 
 def ensure_data_exists():
+    """
+    Ensures data files are available for reading.
+    On serverless: copies bundled files to /tmp.
+    On local: generates if missing (for development convenience).
+    """
+    _ensure_tmp_data()
+
     if not os.path.exists(DATASET_PATH):
+        if IS_SERVERLESS:
+            # Cannot generate on serverless if bundle is missing — this is a deployment error
+            return
         from generator.generate_dataset import generate
-        generate(seed=42, output_dir="data")
+        generate(seed=42, output_dir=str(PROJECT_ROOT / "data"))
+
     if not os.path.exists(SCHEDULE_PATH):
-        run_scheduler_from_dataset(DATASET_PATH, SCHEDULE_PATH)
+        if os.path.exists(DATASET_PATH):
+            run_scheduler_from_dataset(DATASET_PATH, SCHEDULE_PATH)
 
 
 @app.on_event("startup")
@@ -187,19 +242,21 @@ def reset_schedule():
     return JSONResponse(content={"message": "Schedule reset to baseline state", "schedule": data})
 
 
-# Mount React Dashboard frontend
-DASHBOARD_DIR = os.path.join(PROJECT_ROOT, "dashboard")
-if os.path.exists(DASHBOARD_DIR):
-    app.mount("/static", StaticFiles(directory=DASHBOARD_DIR), name="static")
+# Mount Dashboard frontend static files
+DASHBOARD_DIR_STR = str(DASHBOARD_DIR)
+if DASHBOARD_DIR.exists():
+    app.mount("/static", StaticFiles(directory=DASHBOARD_DIR_STR), name="static")
 
 
 @app.get("/", response_class=HTMLResponse)
+@app.get("/api", response_class=HTMLResponse)
 def index_page():
-    index_file = os.path.join(DASHBOARD_DIR, "index.html")
-    if os.path.exists(index_file):
-        with open(index_file, "r", encoding="utf-8") as f:
-            return HTMLResponse(content=f.read())
-    return HTMLResponse(content="<h1>Placement Week Scheduler API</h1><p>Dashboard UI loading...</p>")
+    index_file = DASHBOARD_DIR / "index.html"
+    if index_file.exists():
+        return HTMLResponse(content=index_file.read_text(encoding="utf-8"))
+    return HTMLResponse(
+        content="<h1>Placement Week Scheduler API</h1><p>Dashboard UI loading...</p>"
+    )
 
 
 if __name__ == "__main__":
