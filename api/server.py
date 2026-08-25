@@ -20,8 +20,7 @@ from typing import List, Dict, Any, Optional
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse, JSONResponse
-from fastapi.staticfiles import StaticFiles
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
 from engine.models import DisruptionEvent, DisruptionType, PriorityTier, InterviewStatus
@@ -37,7 +36,6 @@ PROJECT_ROOT = API_DIR.parent
 
 DATASET_PATH_BUNDLED = PROJECT_ROOT / "data" / "dataset.json"
 SCHEDULE_PATH_BUNDLED = PROJECT_ROOT / "data" / "schedule.json"
-DASHBOARD_DIR = PROJECT_ROOT / "dashboard"
 
 # Detect serverless environment: Vercel sets VERCEL=1 and the filesystem
 # outside /tmp is read-only.  We use /tmp for writable schedule state.
@@ -242,21 +240,10 @@ def reset_schedule():
     return JSONResponse(content={"message": "Schedule reset to baseline state", "schedule": data})
 
 
-# Mount Dashboard frontend static files
-DASHBOARD_DIR_STR = str(DASHBOARD_DIR)
-if DASHBOARD_DIR.exists():
-    app.mount("/static", StaticFiles(directory=DASHBOARD_DIR_STR), name="static")
-
-
-@app.get("/", response_class=HTMLResponse)
-@app.get("/api", response_class=HTMLResponse)
-def index_page():
-    index_file = DASHBOARD_DIR / "index.html"
-    if index_file.exists():
-        return HTMLResponse(content=index_file.read_text(encoding="utf-8"))
-    return HTMLResponse(
-        content="<h1>Placement Week Scheduler API</h1><p>Dashboard UI loading...</p>"
-    )
+@app.get("/api")
+def health_check():
+    """Health check endpoint for deployment diagnostics."""
+    return {"status": "ok", "version": "1.0.0"}
 
 
 if __name__ == "__main__":

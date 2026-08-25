@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Placement Week Scheduler — Coordinator Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- React, ReactDOM & Babel -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <style>
+    :root {
+      --bg-dark: #0f172a;
+      --bg-card: rgba(30, 41, 59, 0.7);
+      --bg-card-hover: rgba(51, 65, 85, 0.8);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --accent-blue: #38bdf8;
+      --accent-purple: #a855f7;
+      --accent-green: #34d399;
+      --accent-amber: #fbbf24;
+      --accent-rose: #f43f5e;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-main);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    .dashboard-container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Top Navigation Bar */
+    header {
+      background: rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand-section {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-badge {
+      background: var(--accent-blue);
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 18px;
+    }
+
+    .brand-title { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; }
+    .brand-subtitle { font-size: 12px; color: var(--text-muted); }
+
+    .header-actions { display: flex; align-items: center; gap: 12px; }
+    
+    .btn {
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.2s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #0284c7, #2563eb);
+      color: white;
+    }
+    .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    .btn-danger {
+      background: rgba(244, 63, 94, 0.15);
+      border-color: rgba(244, 63, 94, 0.3);
+      color: #fda4af;
+    }
+    .btn-danger:hover { background: rgba(244, 63, 94, 0.3); }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--border-color);
+      color: var(--text-main);
+    }
+    .btn-secondary:hover { background: rgba(255, 255, 255, 0.1); }
+
+    /* KPI Stats Ribbon */
+    .kpi-ribbon {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      padding: 16px 24px;
+      background: rgba(15, 23, 42, 0.5);
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 14px 18px;
+      backdrop-filter: blur(8px);
+    }
+
+    .kpi-title { font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+    .kpi-value { font-size: 22px; font-weight: 800; margin-top: 4px; }
+    .kpi-subtext { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+
+    /* Main Split View */
+    .main-content {
+      display: grid;
+      grid-template-columns: 320px 1fr 380px;
+      gap: 16px;
+      padding: 0 24px 24px 24px;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    .panel-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .panel-header {
+      padding: 14px 18px;
+      border-bottom: 1px solid var(--border-color);
+      font-size: 14px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .panel-body {
+      padding: 18px;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    /* Forms & Controls */
+    .form-group { margin-bottom: 14px; }
+    .form-label { display: block; font-size: 12px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px; }
+    
+    .form-control {
+      width: 100%;
+      padding: 10px 12px;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: white;
+      font-size: 13px;
+      outline: none;
+    }
+    .form-control:focus { border-color: var(--accent-blue); }
+
+    .preset-btn {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 8px;
+      padding: 10px 12px;
+      font-size: 12px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .preset-btn:hover { background: rgba(56, 189, 248, 0.1); border-color: var(--accent-blue); }
+
+    /* Schedule Matrix Grid */
+    .matrix-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .tab-btn {
+      padding: 6px 14px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+    }
+    .tab-btn.active {
+      background: var(--accent-blue);
+      color: #0f172a;
+      border-color: var(--accent-blue);
+    }
+
+    .grid-table-wrapper {
+      overflow: auto;
+      flex: 1;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+    }
+
+    .grid-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12px;
+    }
+
+    .grid-table th {
+      position: sticky;
+      top: 0;
+      background: #1e293b;
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid var(--border-color);
+      font-weight: 600;
+      color: var(--text-muted);
+      z-index: 2;
+    }
+
+    .grid-table td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border-color);
+      border-right: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .slot-pill {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .pill-dream { background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+    .pill-niche { background: rgba(56, 189, 248, 0.2); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+    .pill-mid { background: rgba(52, 211, 153, 0.2); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.3); }
+    .pill-mass { background: rgba(251, 191, 36, 0.2); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.3); }
+
+    /* Diff & Notifications */
+    .diff-badge {
+      display: inline-block;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 6px;
+    }
+
+    .badge-moved { background: rgba(251, 191, 36, 0.2); color: #fbbf24; }
+    .badge-cancelled { background: rgba(244, 63, 94, 0.2); color: #f43f5e; }
+    .badge-new { background: rgba(52, 211, 153, 0.2); color: #34d399; }
+
+    .diff-item {
+      padding: 10px;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
+
+    .notify-card {
+      padding: 10px;
+      background: rgba(56, 189, 248, 0.08);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      border-radius: 6px;
+      margin-bottom: 8px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    const API_BASE = window.location.origin && window.location.origin.startsWith('http')
+      ? window.location.origin
+      : 'http://localhost:8000';
+
+    function Dashboard() {
+      const [schedule, setSchedule] = useState(null);
+      const [dataset, setDataset] = useState(null);
+      const [selectedDay, setSelectedDay] = useState(1);
+      const [searchQuery, setSearchQuery] = useState('');
+      const [lastDiff, setLastDiff] = useState(null);
+      const [loading, setLoading] = useState(true);
+
+      // Form state
+      const [disruptionType, setDisruptionType] = useState('COMPANY_DELAY');
+      const [targetId, setTargetId] = useState('COMP_001');
+      const [delayHours, setDelayHours] = useState(2);
+
+      const fetchState = async () => {
+        setLoading(true);
+        try {
+          const sRes = await fetch(API_BASE + '/api/schedule');
+          const sData = await sRes.json();
+          setSchedule(sData);
+
+          const dRes = await fetch(API_BASE + '/api/dataset');
+          const dData = await dRes.json();
+          setDataset(dData);
+        } catch (err) {
+          console.error("API error:", err);
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      useEffect(() => {
+        fetchState();
+      }, []);
+
+      const handleReset = async () => {
+        setLoading(true);
+        try {
+          const res = await fetch(API_BASE + '/api/reset', { method: 'POST' });
+          const data = await res.json();
+          setSchedule(data.schedule);
+          setLastDiff(null);
+        } catch (err) {
+          alert('Reset failed');
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      const handleInjectDisruption = async (eventsList) => {
+        setLoading(true);
+        try {
+          const payload = { events: eventsList };
+          const res = await fetch(API_BASE + '/api/replan', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+          const data = await res.json();
+          setLastDiff(data.diff);
+          setSchedule(data.schedule);
+        } catch (err) {
+          alert('Replan failed');
+        } finally {
+          setLoading(false);
+        }
+      };
+
+      const handleCustomSubmit = (e) => {
+        e.preventDefault();
+        handleInjectDisruption([{
+          type: disruptionType,
+          target_id: targetId,
+          delay_hours: parseInt(delayHours)
+        }]);
+      };
+
+      if (loading && !schedule) {
+        return <div style={{ padding: 40, textAlign: 'center', color: '#94a3b8' }}>Loading Placement Dashboard...</div>;
+      }
+
+      const metrics = schedule?.metrics || {};
+      const scheduledList = schedule?.scheduled_interviews || [];
+      const unscheduledList = schedule?.unscheduled_interviews || [];
+      const companies = dataset?.companies || [];
+      const rooms = dataset?.rooms || [];
+
+      // Filter scheduled by day and search
+      const dayFiltered = scheduledList.filter(i => {
+        if (!i.slot_id) return false;
+        const isDayMatch = i.slot_id.includes(`SLOT_D${selectedDay}_`);
+        if (!isDayMatch) return false;
+        if (!searchQuery) return true;
+        const q = searchQuery.toLowerCase();
+        return i.student_id.toLowerCase().includes(q) || i.company_id.toLowerCase().includes(q);
+      });
+
+      return (
+        <div className="dashboard-container">
+          {/* Header */}
+          <header>
+            <div className="brand-section">
+              <div className="logo-badge">P</div>
+              <div>
+                <div className="brand-title">Placement Week Coordinator Dashboard</div>
+                <div className="brand-subtitle">Real-Time Constraint Scheduling & Replanning Engine</div>
+              </div>
+            </div>
+            <div className="header-actions">
+              <button className="btn btn-secondary" onClick={fetchState}>Refresh</button>
+              <button className="btn btn-danger" onClick={handleReset}>Reset Baseline</button>
+            </div>
+          </header>
+
+          {/* KPI Stat Cards */}
+          <div className="kpi-ribbon">
+            <div className="kpi-card">
+              <div className="kpi-title">Placement Rate</div>
+              <div className="kpi-value" style={{ color: '#34d399' }}>{metrics.placement_rate_pct || 0}%</div>
+              <div className="kpi-subtext">{metrics.scheduled_count || 0} / {metrics.total_interviews_requested || 0} scheduled</div>
+            </div>
+            <div className="kpi-card">
+              <div className="kpi-title">Room Utilization</div>
+              <div className="kpi-value" style={{ color: '#38bdf8' }}>{metrics.room_utilization_pct || 0}%</div>
+              <div className="kpi-subtext">Across 20 Placement Halls</div>
+            </div>
+            <div className="kpi-card">
+              <div className="kpi-title">Replan Churn Rate</div>
+              <div className="kpi-value" style={{ color: metrics.replan_churn_pct > 5 ? '#f43f5e' : '#fbbf24' }}>
+                {metrics.replan_churn_pct || 0}%
+              </div>
+              <div className="kpi-subtext">{metrics.replan_churn_count || 0} interviews disturbed</div>
+            </div>
+            <div className="kpi-card">
+              <div className="kpi-title">Unscheduled Infeasible</div>
+              <div className="kpi-value" style={{ color: '#f43f5e' }}>{metrics.unscheduled_count || 0}</div>
+              <div className="kpi-subtext">Explicit diagnostics logged</div>
+            </div>
+            <div className="kpi-card">
+              <div className="kpi-title">Avg Student Wait</div>
+              <div className="kpi-value" style={{ color: '#38bdf8' }}>{metrics.avg_student_wait_time_mins || 0} m</div>
+              <div className="kpi-subtext">Max: {metrics.max_student_wait_time_mins || 0} mins</div>
+            </div>
+          </div>
+
+          {/* Main 3-Column Content View */}
+          <div className="main-content">
+            
+            {/* Column 1: Disruption Controls & Presets */}
+            <div className="panel-box">
+              <div className="panel-header">Inject Disruption</div>
+              <div className="panel-body">
+                <div style={{ marginBottom: 16 }}>
+                  <div className="form-label" style={{ color: '#38bdf8', marginBottom: 8 }}>DEFENSE DEMO PRESETS</div>
+                  <button className="preset-btn" onClick={() => handleInjectDisruption([
+                    { type: 'COMPANY_DELAY', target_id: 'COMP_001', delay_hours: 2 },
+                    { type: 'PANEL_DROPOUT', target_id: 'PANEL_COMP_002_1' },
+                    { type: 'STUDENT_WITHDRAWAL', target_id: 'STU_0035' }
+                  ])}>
+                    <strong>Inject Compound Disruption</strong><br/>
+                    <small style={{ color: '#94a3b8' }}>Late Recruiter + Panel Dropout + Withdrawal</small>
+                  </button>
+
+                  <button className="preset-btn" onClick={() => handleInjectDisruption([
+                    { type: 'ROOM_UNAVAILABLE', target_id: 'ROOM_001' }
+                  ])}>
+                    <strong>Room 1 Collapse (ROOM_001)</strong><br/>
+                    <small style={{ color: '#94a3b8' }}>Relocates only Hall 01 interviews</small>
+                  </button>
+
+                  <button className="preset-btn" onClick={() => handleInjectDisruption([
+                    { type: 'STUDENT_WITHDRAWAL', target_id: 'STU_0035' }
+                  ])}>
+                    <strong>Riya Bhat Withdrawal (STU_0035)</strong><br/>
+                    <small style={{ color: '#94a3b8' }}>Frees 13 slots & backfills unplaced</small>
+                  </button>
+                </div>
+
+                <hr style={{ borderColor: 'rgba(255,255,255,0.08)', margin: '16px 0' }} />
+
+                <form onSubmit={handleCustomSubmit}>
+                  <div className="form-label">CUSTOM DISRUPTION EVENT</div>
+                  
+                  <div className="form-group">
+                    <label className="form-label">Event Type</label>
+                    <select className="form-control" value={disruptionType} onChange={e => setDisruptionType(e.target.value)}>
+                      <option value="COMPANY_DELAY">Company Delay</option>
+                      <option value="PANEL_DROPOUT">Panel Dropout</option>
+                      <option value="STUDENT_WITHDRAWAL">Student Withdrawal</option>
+                      <option value="ROOM_UNAVAILABLE">Room Unavailable</option>
+                    </select>
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label">Target Entity ID</label>
+                    <input className="form-control" type="text" value={targetId} onChange={e => setTargetId(e.target.value)} placeholder="e.g. COMP_001 or ROOM_001" required />
+                  </div>
+
+                  {disruptionType === 'COMPANY_DELAY' && (
+                    <div className="form-group">
+                      <label className="form-label">Delay Duration (Hours)</label>
+                      <input className="form-control" type="number" value={delayHours} onChange={e => setDelayHours(e.target.value)} min="1" max="4" />
+                    </div>
+                  )}
+
+                  <button type="submit" className="btn btn-primary" style={{ width: '100%', justifyContent: 'center' }}>
+                    Apply Disruption Engine
+                  </button>
+                </form>
+              </div>
+            </div>
+
+            {/* Column 2: Schedule Matrix & View Inspector */}
+            <div className="panel-box">
+              <div className="panel-header">
+                <span>Schedule Grid Inspector</span>
+                <span className="brand-subtitle">{dayFiltered.length} interviews visible</span>
+              </div>
+              <div className="panel-body" style={{ display: 'flex', flexDirection: 'column' }}>
+                
+                <div className="matrix-controls">
+                  <span style={{ fontSize: 12, fontWeight: 600, color: '#94a3b8' }}>Placement Day:</span>
+                  {[1, 2, 3].map(d => (
+                    <button key={d} className={`tab-btn ${selectedDay === d ? 'active' : ''}`} onClick={() => setSelectedDay(d)}>
+                      Day {d}
+                    </button>
+                  ))}
+                  
+                  <input
+                    type="text"
+                    className="form-control"
+                    style={{ width: 180, marginLeft: 'auto', padding: '6px 10px' }}
+                    placeholder="Search Student/Company..."
+                    value={searchQuery}
+                    onChange={e => setSearchQuery(e.target.value)}
+                  />
+                </div>
+
+                <div className="grid-table-wrapper">
+                  <table className="grid-table">
+                    <thead>
+                      <tr>
+                        <th>Time Slot</th>
+                        <th>Interview ID</th>
+                        <th>Student ID</th>
+                        <th>Company</th>
+                        <th>Room</th>
+                        <th>Panel</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {dayFiltered.slice(0, 100).map(i => (
+                        <tr key={i.id}>
+                          <td style={{ fontFamily: 'JetBrains Mono', color: '#38bdf8' }}>{i.slot_id?.replace(`SLOT_D${selectedDay}_`, '')}</td>
+                          <td style={{ fontWeight: 600 }}>{i.id}</td>
+                          <td><span className="slot-pill pill-mid">{i.student_id}</span></td>
+                          <td><strong style={{ color: '#f8fafc' }}>{i.company_id}</strong></td>
+                          <td><span className="slot-pill pill-niche">{i.room_id}</span></td>
+                          <td>{i.panel_id}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            {/* Column 3: Proactive Conflict & Structured Diff Inspector */}
+            <div className="panel-box">
+              <div className="panel-header">Proactive Diff & Notifications</div>
+              <div className="panel-body">
+                {lastDiff ? (
+                  <div>
+                    <div style={{ marginBottom: 12, padding: 10, background: 'rgba(56, 189, 248, 0.1)', borderRadius: 6, border: '1px solid rgba(56, 189, 248, 0.2)' }}>
+                      <div style={{ fontSize: 12, fontWeight: 700, color: '#38bdf8' }}>REPLAN RESULT SUMMARY</div>
+                      <div style={{ fontSize: 13, fontWeight: 800, marginTop: 4 }}>
+                        Churn: {lastDiff.churn_metrics?.replan_churn_pct}% ({lastDiff.churn_metrics?.total_churn_count} disturbed)
+                      </div>
+                    </div>
+
+                    {lastDiff.moved?.length > 0 && (
+                      <div style={{ marginBottom: 14 }}>
+                        <div className="form-label" style={{ color: '#fbbf24' }}>MOVED INTERVIEWS ({lastDiff.moved.length})</div>
+                        {lastDiff.moved.slice(0, 4).map(m => (
+                          <div key={m.interview_id} className="diff-item">
+                            <span className="diff-badge badge-moved">MOVED</span>
+                            <strong>{m.student_name}</strong> w/ {m.company_name}<br/>
+                            <small style={{ color: '#94a3b8' }}>
+                              Room: {m.old_room} → {m.new_room} | Slot: {m.old_slot?.replace(/SLOT_D\d_/, '')} → {m.new_slot?.replace(/SLOT_D\d_/, '')}
+                            </small>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    {lastDiff.cancelled?.length > 0 && (
+                      <div style={{ marginBottom: 14 }}>
+                        <div className="form-label" style={{ color: '#f43f5e' }}>CANCELLED ({lastDiff.cancelled.length})</div>
+                        {lastDiff.cancelled.slice(0, 4).map(c => (
+                          <div key={c.interview_id} className="diff-item" style={{ borderColor: 'rgba(244, 63, 94, 0.3)' }}>
+                            <span className="diff-badge badge-cancelled">CANCELLED</span>
+                            <strong>{c.student_name}</strong> w/ {c.company_name}<br/>
+                            <small style={{ color: '#fda4af' }}>{c.reason}</small>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    {lastDiff.who_to_notify?.length > 0 && (
+                      <div>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                          <div className="form-label" style={{ color: '#34d399' }}>NOTIFICATION ROSTER</div>
+                          <button className="btn btn-secondary" style={{ padding: '2px 8px', fontSize: 11 }} onClick={() => {
+                            navigator.clipboard.writeText(JSON.stringify(lastDiff.who_to_notify, null, 2));
+                            alert('Notification roster copied to clipboard!');
+                          }}>Copy Roster</button>
+                        </div>
+                        {lastDiff.who_to_notify.slice(0, 4).map((n, idx) => (
+                          <div key={idx} className="notify-card">
+                            <strong>[{n.recipient_type}] {n.name}</strong><br/>
+                            <span>{n.message}</span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <div style={{ color: '#94a3b8', fontSize: 13, textAlign: 'center', marginTop: 40 }}>
+                    No disruption applied yet.<br/>
+                    Click a preset or inject a disruption on the left panel to inspect real-time diffs.
+                  </div>
+                )}
+              </div>
+            </div>
+
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<Dashboard />);
+  </script>
+</body>
+</html>
