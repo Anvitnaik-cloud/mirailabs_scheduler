@@ -328,10 +328,12 @@
         setLoading(true);
         try {
           const sRes = await fetch(API_BASE + '/api/schedule');
+          if (!sRes.ok) throw new Error(`HTTP ${sRes.status} loading schedule`);
           const sData = await sRes.json();
           setSchedule(sData);
 
           const dRes = await fetch(API_BASE + '/api/dataset');
+          if (!dRes.ok) throw new Error(`HTTP ${dRes.status} loading dataset`);
           const dData = await dRes.json();
           setDataset(dData);
         } catch (err) {
@@ -348,12 +350,24 @@
       const handleReset = async () => {
         setLoading(true);
         try {
-          const res = await fetch(API_BASE + '/api/reset', { method: 'POST' });
-          const data = await res.json();
-          setSchedule(data.schedule);
-          setLastDiff(null);
+          const response = await fetch(API_BASE + '/api/reset', { method: 'POST' });
+          const text = await response.text();
+          let data;
+          try {
+            data = JSON.parse(text);
+          } catch (e) {
+            throw new Error(`HTTP ${response.status}: ${text}`);
+          }
+          if (!response.ok) {
+            throw new Error(data.detail || data.error || `HTTP ${response.status}`);
+          }
+          if (data.schedule) {
+            setSchedule(data.schedule);
+            setLastDiff(null);
+          }
         } catch (err) {
-          alert('Reset failed');
+          console.error('Reset failed:', err);
+          alert(`Reset failed: ${err.message}`);
         } finally {
           setLoading(false);
         }
@@ -363,16 +377,30 @@
         setLoading(true);
         try {
           const payload = { events: eventsList };
-          const res = await fetch(API_BASE + '/api/replan', {
+          const response = await fetch(API_BASE + '/api/replan', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
           });
-          const data = await res.json();
-          setLastDiff(data.diff);
-          setSchedule(data.schedule);
+          const text = await response.text();
+          let data;
+          try {
+            data = JSON.parse(text);
+          } catch (e) {
+            throw new Error(`HTTP ${response.status}: ${text}`);
+          }
+          if (!response.ok) {
+            throw new Error(data.detail || data.error || `HTTP ${response.status}`);
+          }
+          if (data.diff && data.schedule) {
+            setLastDiff(data.diff);
+            setSchedule(data.schedule);
+          } else {
+            throw new Error('Invalid response payload structure');
+          }
         } catch (err) {
-          alert('Replan failed');
+          console.error('Replan failed:', err);
+          alert(`Replan failed: ${err.message}`);
         } finally {
           setLoading(false);
         }

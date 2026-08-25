@@ -8,11 +8,13 @@ Vercel Compatibility:
 - Writable schedule state uses /tmp on serverless, falls back to data/ locally.
 """
 import json
+import logging
 import os
 import platform
 import shutil
 import tempfile
 import threading
+import time
 from enum import Enum
 from dataclasses import asdict
 from pathlib import Path
@@ -26,6 +28,9 @@ from pydantic import BaseModel
 from engine.models import DisruptionEvent, DisruptionType, PriorityTier, InterviewStatus
 from engine.scheduler import run_scheduler_from_dataset
 from engine.replanner import IncrementalReplanner
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("placement_scheduler_api")
 
 
 # ---------------------------------------------------------------------------
@@ -98,16 +103,39 @@ def _write_json_atomic(path: str, data: Any):
         raise
 
 
+def _find_bundled_file(filename: str) -> Optional[Path]:
+    """Search for bundled data file across common project directories."""
+    candidates = [
+        PROJECT_ROOT / "data" / filename,
+        API_DIR.parent / "data" / filename,
+        Path.cwd() / "data" / filename,
+    ]
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    return None
+
+
 def _ensure_tmp_data():
     """
     On serverless: copy bundled read-only data files to /tmp if not already there.
     On local: no-op (files are already in data/).
     """
     if IS_SERVERLESS:
-        if not os.path.exists(DATASET_PATH) and DATASET_PATH_BUNDLED.exists():
-            shutil.copy2(str(DATASET_PATH_BUNDLED), DATASET_PATH)
-        if not os.path.exists(SCHEDULE_PATH) and SCHEDULE_PATH_BUNDLED.exists():
-            shutil.copy2(str(SCHEDULE_PATH_BUNDLED), SCHEDULE_PATH)
+        _TMP_DATA_DIR.mkdir(parents=True, exist_ok=True)
+        if not os.path.exists(DATASET_PATH):
+            bundled = _find_bundled_file("dataset.json")
+            if bundled:
+                shutil.copy2(str(bundled), DATASET_PATH)
+            else:
+                logger.error("dataset.json not found in any bundled location")
+
+        if not os.path.exists(SCHEDULE_PATH):
+            bundled = _find_bundled_file("schedule.json")
+            if bundled:
+                shutil.copy2(str(bundled), SCHEDULE_PATH)
+            elif os.path.exists(DATASET_PATH):
+                run_scheduler_from_dataset(DATASET_PATH, SCHEDULE_PATH)
 
 
 def _read_schedule_safe() -> Dict[str, Any]:
@@ -117,7 +145,6 @@ def _read_schedule_safe() -> Dict[str, Any]:
         with open(SCHEDULE_PATH, "r", encoding="utf-8") as f:
             return json.load(f)
     except (json.JSONDecodeError, FileNotFoundError):
-        # Regenerate only if we have the dataset available
         if os.path.exists(DATASET_PATH):
             run_scheduler_from_dataset(DATASET_PATH, SCHEDULE_PATH)
             with open(SCHEDULE_PATH, "r", encoding="utf-8") as f:
@@ -135,7 +162,6 @@ def ensure_data_exists():
 
     if not os.path.exists(DATASET_PATH):
         if IS_SERVERLESS:
-            # Cannot generate on serverless if bundle is missing — this is a deployment error
             return
         from generator.generate_dataset import generate
         generate(seed=42, output_dir=str(PROJECT_ROOT / "data"))
@@ -177,58 +203,82 @@ def get_dataset():
 
 @app.post("/api/replan")
 def replan(payload: CompoundDisruptionPayload):
-    ensure_data_exists()
+    try:
+        start_time = time.perf_counter()
+        ensure_data_exists()
 
-    with _schedule_lock:
-        current_schedule_data = _read_schedule_safe()
-        replanner = IncrementalReplanner(DATASET_PATH, current_schedule_data)
+        with _schedule_lock:
+            current_schedule_data = _read_schedule_safe()
+            replanner = IncrementalReplanner(DATASET_PATH, current_schedule_data)
 
-        disruption_events = []
-        for idx, item in enumerate(payload.events):
-            dtype = DisruptionType[item.type]
-            p_dict = {}
-            if dtype == DisruptionType.COMPANY_DELAY:
-                p_dict = {"company_id": item.target_id, "delay_hours": item.delay_hours or 2}
-            elif dtype == DisruptionType.PANEL_DROPOUT:
-                parts = item.target_id.split("_")
-                comp_id = "_".join(parts[1:-1]) if len(parts) >= 3 else item.target_id
-                p_dict = {"panel_id": item.target_id, "company_id": comp_id}
-            elif dtype == DisruptionType.STUDENT_WITHDRAWAL:
-                p_dict = {"student_id": item.target_id}
-            elif dtype == DisruptionType.ROOM_UNAVAILABLE:
-                p_dict = {"room_id": item.target_id}
+            disruption_events = []
+            for idx, item in enumerate(payload.events):
+                type_str = item.type.strip()
+                try:
+                    dtype = DisruptionType[type_str]
+                except KeyError:
+                    try:
+                        dtype = DisruptionType(type_str)
+                    except ValueError:
+                        raise HTTPException(
+                            status_code=400,
+                            detail=f"Invalid disruption type: '{item.type}'"
+                        )
 
-            disruption_events.append(DisruptionEvent(
-                id=item.id or f"EVENT_{idx+1}",
-                type=dtype,
-                timestamp="10:00",
-                payload=p_dict
-            ))
+                p_dict = {}
+                if dtype == DisruptionType.COMPANY_DELAY:
+                    p_dict = {"company_id": item.target_id, "delay_hours": item.delay_hours or 2}
+                elif dtype == DisruptionType.PANEL_DROPOUT:
+                    parts = item.target_id.split("_")
+                    comp_id = "_".join(parts[1:-1]) if len(parts) >= 3 else item.target_id
+                    p_dict = {"panel_id": item.target_id, "company_id": comp_id}
+                elif dtype == DisruptionType.STUDENT_WITHDRAWAL:
+                    p_dict = {"student_id": item.target_id}
+                elif dtype == DisruptionType.ROOM_UNAVAILABLE:
+                    p_dict = {"room_id": item.target_id}
 
-        diff = replanner.apply_disruptions(disruption_events)
+                disruption_events.append(DisruptionEvent(
+                    id=item.id or f"EVENT_{idx+1}",
+                    type=dtype,
+                    timestamp="10:00",
+                    payload=p_dict
+                ))
 
-        total_requested = current_schedule_data.get("metrics", {}).get("total_interviews_requested", 2207)
-        updated_schedule_dict = {
-            "id": "SCHED_REPLANNED",
-            "metrics": {
-                "total_interviews_requested": total_requested,
-                "scheduled_count": len(replanner.scheduled_interviews),
-                "unscheduled_count": len(replanner.unscheduled_interviews),
-                "placement_rate_pct": round(len(replanner.scheduled_interviews) / max(total_requested, 1) * 100, 2),
-                "replan_churn_pct": diff["churn_metrics"]["replan_churn_pct"],
-                "replan_churn_count": diff["churn_metrics"]["total_churn_count"],
-                "room_utilization_pct": round(len(replanner.room_occupied) / max(len(replanner.rooms) * 54, 1) * 100, 2)
-            },
-            "scheduled_interviews": [serialize_interview(i) for i in replanner.scheduled_interviews.values()],
-            "unscheduled_interviews": [serialize_interview(i) for i in replanner.unscheduled_interviews.values()]
-        }
+            diff = replanner.apply_disruptions(disruption_events)
 
-        _write_json_atomic(SCHEDULE_PATH, updated_schedule_dict)
+            total_requested = current_schedule_data.get("metrics", {}).get("total_interviews_requested", 2207)
+            updated_schedule_dict = {
+                "id": "SCHED_REPLANNED",
+                "metrics": {
+                    "total_interviews_requested": total_requested,
+                    "scheduled_count": len(replanner.scheduled_interviews),
+                    "unscheduled_count": len(replanner.unscheduled_interviews),
+                    "placement_rate_pct": round(len(replanner.scheduled_interviews) / max(total_requested, 1) * 100, 2),
+                    "replan_churn_pct": diff["churn_metrics"]["replan_churn_pct"],
+                    "replan_churn_count": diff["churn_metrics"]["total_churn_count"],
+                    "room_utilization_pct": round(len(replanner.room_occupied) / max(len(replanner.rooms) * 54, 1) * 100, 2)
+                },
+                "scheduled_interviews": [serialize_interview(i) for i in replanner.scheduled_interviews.values()],
+                "unscheduled_interviews": [serialize_interview(i) for i in replanner.unscheduled_interviews.values()]
+            }
 
-    return JSONResponse(content={
-        "diff": diff,
-        "schedule": updated_schedule_dict
-    })
+            _write_json_atomic(SCHEDULE_PATH, updated_schedule_dict)
+
+        elapsed = time.perf_counter() - start_time
+        logger.info(f"Replanning completed successfully in {elapsed:.3f}s")
+
+        return JSONResponse(content={
+            "diff": diff,
+            "schedule": updated_schedule_dict
+        })
+    except HTTPException:
+        raise
+    except Exception as exc:
+        logger.exception("Replan execution failed")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Replanning execution failed: {str(exc)}"
+        )
 
 
 @app.post("/api/reset")
