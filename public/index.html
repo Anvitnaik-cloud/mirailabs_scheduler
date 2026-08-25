@@ -311,6 +311,18 @@
       ? window.location.origin
       : 'http://localhost:8000';
 
+    const formatSlotTime = (slotId) => {
+      if (!slotId) return '';
+      const raw = slotId.replace(/SLOT_D\d_/, '');
+      const parts = raw.split('_');
+      if (parts.length === 2 && parts[0].length === 4 && parts[1].length === 4) {
+        const s = parts[0].slice(0, 2) + ':' + parts[0].slice(2);
+        const e = parts[1].slice(0, 2) + ':' + parts[1].slice(2);
+        return `${s} - ${e}`;
+      }
+      return raw.replace('_', ' - ');
+    };
+
     function Dashboard() {
       const [schedule, setSchedule] = useState(null);
       const [dataset, setDataset] = useState(null);
@@ -592,7 +604,7 @@
                     <tbody>
                       {dayFiltered.slice(0, 100).map(i => (
                         <tr key={i.id}>
-                          <td style={{ fontFamily: 'JetBrains Mono', color: '#38bdf8' }}>{i.slot_id?.replace(`SLOT_D${selectedDay}_`, '')}</td>
+                          <td style={{ fontFamily: 'JetBrains Mono', color: '#38bdf8' }}>{formatSlotTime(i.slot_id)}</td>
                           <td style={{ fontWeight: 600 }}>{i.id}</td>
                           <td><span className="slot-pill pill-mid">{i.student_id}</span></td>
                           <td><strong style={{ color: '#f8fafc' }}>{i.company_id}</strong></td>
@@ -627,7 +639,7 @@
                             <span className="diff-badge badge-moved">MOVED</span>
                             <strong>{m.student_name}</strong> w/ {m.company_name}<br/>
                             <small style={{ color: '#94a3b8' }}>
-                              Room: {m.old_room} → {m.new_room} | Slot: {m.old_slot?.replace(/SLOT_D\d_/, '')} → {m.new_slot?.replace(/SLOT_D\d_/, '')}
+                              Room: {m.old_room} - {m.new_room} | Slot: {formatSlotTime(m.old_slot)} - {formatSlotTime(m.new_slot)}
                             </small>
                           </div>
                         ))}
@@ -658,7 +670,7 @@
                         </div>
                         {lastDiff.who_to_notify.slice(0, 4).map((n, idx) => (
                           <div key={idx} className="notify-card">
-                            <strong>[{n.recipient_type}] {n.name}</strong><br/>
+                            <strong>{n.recipient_type} - {n.name}</strong><br/>
                             <span>{n.message}</span>
                           </div>
                         ))}
