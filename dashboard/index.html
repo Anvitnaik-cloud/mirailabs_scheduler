@@ -377,6 +377,7 @@
         setLoading(true);
         try {
           const payload = { events: eventsList };
+          console.log('Replan URL:', API_BASE + '/api/replan');
           const response = await fetch(API_BASE + '/api/replan', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -491,28 +492,28 @@
               <div className="panel-header">Inject Disruption</div>
               <div className="panel-body">
                 <div style={{ marginBottom: 16 }}>
-                  <div className="form-label" style={{ color: '#38bdf8', marginBottom: 8 }}>DEFENSE DEMO PRESETS</div>
+                  <div className="form-label" style={{ color: '#38bdf8', marginBottom: 8 }}>PRESET DISRUPTION SCENARIOS</div>
                   <button className="preset-btn" onClick={() => handleInjectDisruption([
                     { type: 'COMPANY_DELAY', target_id: 'COMP_001', delay_hours: 2 },
                     { type: 'PANEL_DROPOUT', target_id: 'PANEL_COMP_002_1' },
                     { type: 'STUDENT_WITHDRAWAL', target_id: 'STU_0035' }
                   ])}>
-                    <strong>Inject Compound Disruption</strong><br/>
-                    <small style={{ color: '#94a3b8' }}>Late Recruiter + Panel Dropout + Withdrawal</small>
+                    <strong>Compound Multi-Fault Disruption</strong><br/>
+                    <small style={{ color: '#94a3b8' }}>Simulates Recruiter Delay + Panel Dropout + Candidate Withdrawal</small>
                   </button>
 
                   <button className="preset-btn" onClick={() => handleInjectDisruption([
                     { type: 'ROOM_UNAVAILABLE', target_id: 'ROOM_001' }
                   ])}>
-                    <strong>Room 1 Collapse (ROOM_001)</strong><br/>
-                    <small style={{ color: '#94a3b8' }}>Relocates only Hall 01 interviews</small>
+                    <strong>Placement Hall Outage</strong><br/>
+                    <small style={{ color: '#94a3b8' }}>Disables facility & relocates affected interviews</small>
                   </button>
 
                   <button className="preset-btn" onClick={() => handleInjectDisruption([
                     { type: 'STUDENT_WITHDRAWAL', target_id: 'STU_0035' }
                   ])}>
-                    <strong>Riya Bhat Withdrawal (STU_0035)</strong><br/>
-                    <small style={{ color: '#94a3b8' }}>Frees 13 slots & backfills unplaced</small>
+                    <strong>Candidate Registration Withdrawal</strong><br/>
+                    <small style={{ color: '#94a3b8' }}>Frees reserved slots & triggers automatic backfill</small>
                   </button>
                 </div>
 
